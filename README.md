@@ -1,5 +1,5 @@
 # kkFileViewOfficeEdit
-对 https://github.com/kekingcn/kkFileView/ 进行了二次开发,整合了openOffice进来，项目体积更大了！但使用和配置更简单。
+对 https://github.com/kekingcn/kkFileView/ 进行了二次开发。整合了openOffice进来，项目体积更大了！但使用和配置更简单。
 
 打包方式改为了WAR包部署。
 
