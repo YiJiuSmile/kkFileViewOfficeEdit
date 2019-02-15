@@ -1,8 +1,25 @@
 # kkFileViewOfficeEdit
-对 https://github.com/kekingcn/kkFileView/ 进行了二次开发,整合了openOffice进来，项目体积更大了！但使用更简单。
+对 https://github.com/kekingcn/kkFileView/ 进行了二次开发,整合了openOffice进来，项目体积更大了！但使用和配置更简单(少安装个openOffice)。
+
 打包方式改为了WAR包部署。
+
 整合了pageOffice进行在线文档编辑。
 
+### 在线预览使用方法
+IP+端口+项目名/onlinePreview?url=你的文件地址
+更详细的说明上面见那个地址，注意传递的是地址，不要下载流
+
+### 文档编辑使用方法
+IP+端口+项目名/onlineEdit?url=你的文件地址&callBack=回调地址
+保存文档成功后，会触发回调，onlineEdit方法调用你传递来的回调地址，并把重新生成的文档下载地址传回去（参数名：downloadPath）
+考虑到有可能两个项目部署到不同服务器，文件不互通，所以采用这样的方式
+编辑地址示例：
+http://127.0.0.1:8012/onlineEdit?callBack=localhost:8080/ZsContent/saveCallBack&url=http%3A%2F%2Flocalhost%3A8080%2F1.ppt&fileId=yourId
+url需要进行encode！回调地址不能带HTTP：// ！
+如果还有其它参数
+回调地址示例：
+http://localhost:8080/ZsContent/saveCallBack?downloadPath=http://127.0.0.1:8012/download?filename=D:/Users/chenkailing/test/a3ba6f7c-a989-4f47-8173-f795ff30a92b.ppt&fileId=123456
+如果还有其它参数也会一并传回
 
 ### 项目特性
 
@@ -13,6 +30,7 @@
 1. 使用spring boot开发，预览服务搭建部署非常简便
 1. rest接口提供服务，跨平台特性(java,php,python,go,php，....)都支持，应用接入简单方便
 1. 抽象预览服务接口，方便二次开发，非常方便添加其他类型文件预览支持
+1. 整合了pageOffice进行在线文档编辑
 1. 最最重要Apache协议开源，代码pull下来想干嘛就干嘛
 
 ### 文档预览效果
@@ -34,9 +52,9 @@
 
 
 
-1. 第一步：pull项目https://github.com/kekingcn/file-online-preview.git
+1. 第一步：pull项目https://github.com/yijiusmile/kkFileViewOfficeEdit.git
 
-2. 第二步：配置redis地址和OpenOffice目录，如
+2. 第二步：配置redis地址，如
 ```
 #=============================================#spring Redisson配置#===================================#
 spring.redisson.address = 192.168.1.204:6379
