@@ -17,12 +17,12 @@ IP+端口+项目名/onlineEdit?url=你的文件地址&callBack=回调地址
 
 编辑地址示例：
 
-http://127.0.0.1:8012/onlineEdit?callBack=localhost:8080/ZsContent/saveCallBack&url=http%3A%2F%2Flocalhost%3A8080%2F1.ppt&fileId=yourId
+http://127.0.0.1:8012/onlineEdit?callBack=localhost:8080/ZsContent/saveCallBack&url=http%3A%2F%2Flocalhost%3A8080%2F1.doc&fileId=yourId
 
 url需要进行encode！回调地址不能带HTTP：// ！
 如果还有其它参数，可以拼接到URL后面
 回调地址示例：
-http://localhost:8080/ZsContent/saveCallBack?downloadPath=http://127.0.0.1:8012/download?filename=D:/Users/chenkailing/test/a3ba6f7c-a989-4f47-8173-f795ff30a92b.ppt&fileId=123456
+http://localhost:8080/ZsContent/saveCallBack?downloadPath=http://127.0.0.1:8012/download?filename=D:/Users/chenkailing/test/a3ba6f7c-a989-4f47-8173-f795ff30a92b.doc&fileId=123456
 如果还有其它参数也会一并传回
 
 ### 项目特性
