@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--***********************************************************
+ * 
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ * 
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ * 
+ ***********************************************************-->
+<tree_view version="24-Aug-2004">
+	<help_section application="swriter" id="02" title="文字文件">
+		<node id="0201" title="一般資訊和使用者介面用法">
+<topic id="swriter/text/swriter/main0000.xhp">歡迎使用 %PRODUCTNAME Writer 說明</topic>
+<topic id="swriter/text/swriter/main0503.xhp">%PRODUCTNAME Writer 的功能</topic>
+<topic id="swriter/text/swriter/guide/main.xhp">使用 %PRODUCTNAME Writer 的說明</topic>
+<topic id="swriter/text/swriter/guide/resize_navigator.xhp">停駐或變更視窗大小</topic>
+<topic id="swriter/text/swriter/04/01020000.xhp">%PRODUCTNAME Writer 的組合鍵</topic>
+<topic id="swriter/text/swriter/guide/words_count.xhp">統計字詞個數</topic>
+<topic id="swriter/text/swriter/guide/keyboard.xhp">使用組合鍵 (%PRODUCTNAME Writer 協助工具)</topic>
+		</node>
+		<node id="0202" title="指令和功能表參照">
+			<node id="020201" title="功能表">
+<topic id="swriter/text/swriter/main0100.xhp">功能表</topic>
+<topic id="swriter/text/swriter/main0101.xhp">檔案</topic>
+<topic id="swriter/text/swriter/main0102.xhp">編輯</topic>
+<topic id="swriter/text/swriter/main0103.xhp">檢視</topic>
+<topic id="swriter/text/swriter/main0104.xhp">插入</topic>
+<topic id="swriter/text/swriter/main0105.xhp">格式</topic>
+<topic id="swriter/text/swriter/main0106.xhp">工具</topic>
+<topic id="swriter/text/swriter/main0107.xhp">視窗</topic>
+			</node>
+			<node id="020202" title="工具列">
+<topic id="swriter/text/swriter/main0200.xhp">工具列</topic>
+<topic id="swriter/text/swriter/main0202.xhp">文字物件列</topic>
+<topic id="swriter/text/swriter/main0203.xhp">圖片列</topic>
+<topic id="swriter/text/swriter/main0204.xhp">表格列</topic>
+<topic id="swriter/text/swriter/main0205.xhp">繪圖物件特性列</topic>
+<topic id="swriter/text/swriter/main0206.xhp">項目符號與編號列</topic>
+<topic id="swriter/text/swriter/main0208.xhp">狀態列</topic>
+<topic id="swriter/text/swriter/main0210.xhp">頁面預覽</topic>
+<topic id="swriter/text/swriter/main0213.xhp">標尺</topic>
+<topic id="swriter/text/swriter/main0214.xhp">編輯列</topic>
+<topic id="swriter/text/swriter/main0215.xhp">訊框列</topic>
+<topic id="swriter/text/swriter/main0216.xhp">OLE 物件列</topic>
+<topic id="swriter/text/swriter/main0220.xhp">文字物件列</topic>
+<topic id="shared/text/shared/main0201.xhp">標準列</topic>
+<topic id="shared/text/shared/main0209.xhp">超連結位址欄</topic>
+<topic id="shared/text/shared/main0212.xhp">表格資料列</topic>
+<topic id="shared/text/shared/main0213.xhp">[表單瀏覽] 工具列</topic>
+<topic id="shared/text/shared/main0214.xhp">查詢設計列</topic>
+<topic id="shared/text/shared/main0226.xhp">表單設計工具列</topic>
+
+
+			</node>
+		</node>
+		<node id="0203" title="建立文字文件">
+<topic id="swriter/text/swriter/guide/text_nav_keyb.xhp">使用鍵盤瀏覽和選取</topic>
+<topic id="swriter/text/swriter/guide/text_direct_cursor.xhp">使用直接定位游標</topic>
+		</node>
+		<node id="0204" title="文字文件中的圖形">
+<topic id="swriter/text/swriter/guide/insert_graphic.xhp">插入圖形</topic>
+<topic id="swriter/text/swriter/guide/insert_graphic_dialog.xhp">從檔案中插入圖形</topic>
+<topic id="swriter/text/swriter/guide/insert_graphic_gallery.xhp">使用拖放功能從畫廊插入圖形</topic>
+<topic id="swriter/text/swriter/guide/insert_graphic_scan.xhp"> [插入掃瞄影像]</topic>
+<topic id="swriter/text/swriter/guide/insert_graphic_fromchart.xhp">在文字文件中插入 Calc 圖表</topic>
+<topic id="swriter/text/swriter/guide/insert_graphic_fromdraw.xhp">從 %PRODUCTNAME Draw 或 Impress 插入圖形</topic>
+<topic id="swriter/text/swriter/guide/insert_line.xhp">插入水平線</topic>
+		</node>
+		<node id="0205" title="文字文件中的表格">
+<topic id="swriter/text/swriter/guide/number_date_conv.xhp">開啟或關閉表格中的數字識別</topic>
+<topic id="swriter/text/swriter/guide/tablemode.xhp">使用鍵盤修改列與欄</topic>
+<topic id="swriter/text/swriter/guide/table_delete.xhp">刪除表格或是表格內容</topic>
+<topic id="swriter/text/swriter/guide/table_insert.xhp">插入表格</topic>
+<topic id="swriter/text/swriter/guide/table_repeat_multiple_headers.xhp">在新的頁面上重複表格標題</topic>
+<topic id="swriter/text/swriter/guide/table_sizing.xhp">變更文字表格中列和欄的大小</topic>
+<topic id="swriter/text/swriter/guide/table_cells.xhp">使用鍵盤在表格中加入或刪除列或欄</topic>
+		</node>
+		<node id="0206" title="文字文件中的物件">
+<topic id="swriter/text/swriter/guide/anchor_object.xhp">定位物件</topic>
+<topic id="swriter/text/swriter/guide/wrap.xhp">文字環繞物件</topic>
+		</node>
+		<node id="0207" title="文字文件中的區域和文字方塊">
+<topic id="swriter/text/swriter/guide/sections.xhp">使用區段</topic>
+<topic id="swriter/text/swriter/guide/text_frame.xhp">插入、編輯與連結文字框架</topic>
+<topic id="swriter/text/swriter/guide/section_edit.xhp">編輯區域</topic>
+<topic id="swriter/text/swriter/guide/section_insert.xhp">插入區段</topic>
+		</node>
+		<node id="0208" title="目錄與索引">
+<topic id="swriter/text/swriter/guide/chapter_numbering.xhp">大綱編號</topic>
+<topic id="swriter/text/swriter/guide/indices_userdef.xhp">使用者自訂的索引</topic>
+<topic id="swriter/text/swriter/guide/indices_toc.xhp">建立目錄</topic>
+<topic id="swriter/text/swriter/guide/indices_index.xhp">建立索引目錄</topic>
+<topic id="swriter/text/swriter/guide/indices_multidoc.xhp">涵蓋數個文件的索引</topic>
+<topic id="swriter/text/swriter/guide/indices_literature.xhp">建立參考文獻目錄</topic>
+<topic id="swriter/text/swriter/guide/indices_delete.xhp">編輯或刪除索引與表格條目</topic>
+<topic id="swriter/text/swriter/guide/indices_edit.xhp">更新、編輯與刪除索引和目錄</topic>
+<topic id="swriter/text/swriter/guide/indices_enter.xhp">定義索引或目錄條目</topic>
+<topic id="swriter/text/swriter/guide/indices_form.xhp">格式化索引或目錄</topic>
+		</node>
+		<node id="0209" title="文字文件中的欄位">
+<topic id="swriter/text/swriter/guide/fields.xhp">關於欄位</topic>
+<topic id="swriter/text/swriter/guide/fields_date.xhp">插入固定或可變日期欄位</topic>
+<topic id="swriter/text/swriter/guide/field_convert.xhp">將欄位轉換成文字</topic>
+		</node>
+		<node id="0210" title="瀏覽文字文件">
+<topic id="swriter/text/swriter/guide/dragdroptext.xhp">在文件中移動並複製文字</topic>
+<topic id="swriter/text/swriter/guide/arrange_chapters.xhp">使用瀏覽重新排序文件</topic>
+<topic id="swriter/text/swriter/guide/hyperlinks.xhp">利用瀏覽插入超連結</topic>
+<topic id="swriter/text/swriter/guide/navigator.xhp">文字文件的瀏覽</topic>
+		</node>
+		<node id="0211" title="在文字文件中計算">
+<topic id="swriter/text/swriter/guide/calculate_multitable.xhp">跨表格計算</topic>
+<topic id="swriter/text/swriter/guide/calculate.xhp">在文字文件中計算</topic>
+<topic id="swriter/text/swriter/guide/calculate_clipboard.xhp">計算與貼上文字文件中的公式結果</topic>
+<topic id="swriter/text/swriter/guide/calculate_intable.xhp">計算表格中的儲存格總和</topic>
+<topic id="swriter/text/swriter/guide/calculate_intext.xhp">計算文字文件中的複雜公式</topic>
+<topic id="swriter/text/swriter/guide/calculate_intext2.xhp">顯示不同表格中，表格計算的結果</topic>
+		</node>
+		<node id="0212" title="格式化文字文件">
+			<node id="021201" title="文件樣式和樣式">
+<topic id="swriter/text/swriter/guide/templates_styles.xhp">範本與樣式</topic>
+<topic id="swriter/text/swriter/guide/even_odd_sdw.xhp">在偶數頁和奇數頁上採用不同的頁面樣式</topic>
+<topic id="swriter/text/swriter/guide/change_header.xhp">基於目前頁面建立頁面樣式</topic>
+<topic id="swriter/text/swriter/guide/load_styles.xhp">使用另一個文件或範本中的樣式</topic>
+<topic id="swriter/text/swriter/guide/stylist_fromselect.xhp">從選擇中建立新樣式</topic>
+<topic id="swriter/text/swriter/guide/stylist_update.xhp">從選擇中更新樣式</topic>
+<topic id="swriter/text/swriter/guide/template_create.xhp">建立文件範本</topic>
+<topic id="swriter/text/swriter/guide/template_default.xhp">變更預設範本</topic>
+			</node>
+<topic id="swriter/text/swriter/guide/pageorientation.xhp">變更頁面方向 (橫向或縱向)</topic>
+<topic id="swriter/text/swriter/guide/text_capital.xhp">變更文字的大小寫</topic>
+<topic id="swriter/text/swriter/guide/hidden_text.xhp">隱藏文字</topic>
+<topic id="swriter/text/swriter/guide/header_pagestyles.xhp">定義不同的頁首與頁尾</topic>
+<topic id="swriter/text/swriter/guide/header_with_chapter.xhp">在頁首或頁尾插入章節名稱和章節號碼</topic>
+<topic id="swriter/text/swriter/guide/shortcut_writing.xhp">輸入時套用文字格式</topic>
+<topic id="swriter/text/swriter/guide/reset_format.xhp">重設字型屬性</topic>
+<topic id="swriter/text/swriter/guide/stylist_fillformat.xhp">在充填格式模式中套用樣式</topic>
+<topic id="swriter/text/swriter/guide/wrap.xhp">文字環繞物件</topic>
+<topic id="swriter/text/swriter/guide/text_centervert.xhp">使用訊框以置中頁面上的文字</topic>
+<topic id="swriter/text/swriter/guide/text_emphasize.xhp">突顯文字</topic>
+<topic id="swriter/text/swriter/guide/text_rotate.xhp">旋轉文字</topic>
+<topic id="swriter/text/swriter/guide/page_break.xhp">插入與刪除分頁</topic>
+<topic id="swriter/text/swriter/guide/pagestyles.xhp">建立和套用頁面樣式</topic>
+<topic id="swriter/text/swriter/guide/subscript.xhp">使此文字成為上標或下標</topic>
+		</node>
+		<node id="0213" title="特殊文字單元">
+<topic id="swriter/text/swriter/guide/captions.xhp">使用標籤</topic>
+<topic id="swriter/text/swriter/guide/conditional_text.xhp">條件文字</topic>
+<topic id="swriter/text/swriter/guide/conditional_text2.xhp">頁數的條件文字</topic>
+<topic id="swriter/text/swriter/guide/fields_date.xhp">插入固定或可變日期欄位</topic>
+<topic id="swriter/text/swriter/guide/fields_enter.xhp">新增輸入欄位</topic>
+<topic id="swriter/text/swriter/guide/footer_nextpage.xhp">插入續頁的頁碼</topic>
+<topic id="swriter/text/swriter/guide/footer_pagenumber.xhp">在頁尾中插入頁碼</topic>
+<topic id="swriter/text/swriter/guide/hidden_text.xhp">隱藏文字</topic>
+<topic id="swriter/text/swriter/guide/header_pagestyles.xhp">定義不同的頁首與頁尾</topic>
+<topic id="swriter/text/swriter/guide/header_with_chapter.xhp">在頁首或頁尾插入章節名稱和章節號碼</topic>
+<topic id="swriter/text/swriter/guide/fields_userdata.xhp">查詢欄位或條件中的使用者資料</topic>
+<!-- removed swriter/text/swriter/guide/fontwork.xhp -->
+<topic id="swriter/text/swriter/guide/footnote_usage.xhp">插入和編輯註腳或尾註</topic>
+<topic id="swriter/text/swriter/guide/footnote_with_line.xhp">註腳之間的間隔</topic>
+<topic id="swriter/text/swriter/guide/header_footer.xhp">關於頁首和頁尾</topic>
+<topic id="swriter/text/swriter/guide/header_with_line.xhp">格式化頁首或頁尾</topic>
+<topic id="swriter/text/swriter/guide/text_animation.xhp">使文字呈現動態效果</topic>
+<topic id="swriter/text/swriter/guide/form_letters_main.xhp">建立表單信函</topic>
+		</node>
+		<node id="0214" title="自動功能">
+<topic id="swriter/text/swriter/guide/autocorr_except.xhp">新增例外至自動校正清單</topic>
+<topic id="swriter/text/swriter/guide/autotext.xhp">使用自動圖文集</topic>
+<topic id="swriter/text/swriter/guide/auto_numbering.xhp">輸入時建立有編號或項目編號的清單</topic>
+<topic id="swriter/text/swriter/guide/auto_off.xhp">關閉自動校正</topic>
+<topic id="swriter/text/swriter/guide/auto_spellcheck.xhp">自動檢查拼寫</topic>
+<topic id="swriter/text/swriter/guide/number_date_conv.xhp">開啟或關閉表格中的數字識別</topic>
+<topic id="swriter/text/swriter/guide/select_language.xhp">Checking Spelling in Other Languages</topic>
+<topic id="swriter/text/swriter/guide/using_hyphen.xhp">連字符</topic>
+		</node>
+		<node id="0215" title="編號和清單">
+<topic id="swriter/text/swriter/guide/captions_numbers.xhp">新增章節編號至標籤</topic>
+<topic id="swriter/text/swriter/guide/auto_numbering.xhp">輸入時建立有編號或項目編號的清單</topic>
+<topic id="swriter/text/swriter/guide/chapter_numbering.xhp">大綱編號</topic>
+<topic id="swriter/text/swriter/guide/insert_tab_innumbering.xhp">變更編號清單和項目符號清單的大綱層次</topic>
+<topic id="swriter/text/swriter/guide/join_numbered_lists.xhp">合併編號的清單</topic>
+<topic id="swriter/text/swriter/guide/numbering_lines.xhp">新增行號</topic>
+<topic id="swriter/text/swriter/guide/numbering_paras.xhp">修改已編號清單中的編號</topic>
+<topic id="swriter/text/swriter/guide/number_sequence.xhp">定義編號範圍</topic>
+<topic id="swriter/text/swriter/guide/using_numbered_lists2.xhp">新增編號</topic>
+<topic id="swriter/text/swriter/guide/using_numbering.xhp">編號和編號樣式</topic>
+<topic id="swriter/text/swriter/guide/using_numbered_lists.xhp">新增項目符號</topic>
+		</node>
+		<node id="0216" title="拼寫檢查、同義詞詞典和語言">
+<topic id="swriter/text/swriter/guide/auto_spellcheck.xhp">自動檢查拼寫</topic>
+<topic id="swriter/text/swriter/guide/delete_from_dict.xhp">從使用者自訂字典中移除字詞</topic>
+<topic id="swriter/text/swriter/guide/using_thesaurus.xhp">同義詞詞典</topic>
+<topic id="swriter/text/swriter/guide/select_language.xhp">Checking Spelling in Other Languages</topic>
+<topic id="swriter/text/swriter/guide/spellcheck_dialog.xhp">檢查拼字及文法</topic>
+		</node>
+		<node id="0218" title="疑難排解提示">
+<topic id="swriter/text/swriter/guide/insert_beforetable.xhp">在頁面頂部的表格前插入文字</topic>
+<topic id="swriter/text/swriter/guide/jump2statusbar.xhp">移至特定書籤</topic>
+<topic id="swriter/text/swriter/guide/link_edit.xhp">Editing  Hyperlinks</topic>
+		</node>
+		<node id="0219" title="載入、儲存、匯入和匯出">
+<topic id="swriter/text/swriter/guide/send2html.xhp">以 HTML 格式儲存文字文件</topic>
+<topic id="swriter/text/swriter/guide/textdoc_inframe.xhp">插入整個文字文件</topic>
+		</node>
+		<node id="0220" title="主控文件">
+<topic id="swriter/text/swriter/guide/globaldoc.xhp">主控文件與子文件</topic>
+		</node>
+		<node id="0221" title="連結與參照">
+<topic id="swriter/text/swriter/guide/references.xhp">插入交互參照</topic>
+<topic id="swriter/text/swriter/guide/hyperlinks.xhp">利用瀏覽插入超連結</topic>
+		</node>
+		<node id="0222" title="列印">
+<topic id="swriter/text/swriter/guide/printer_tray.xhp">選取印表機送紙匣</topic>
+<topic id="swriter/text/swriter/guide/print_preview.xhp">列印前預覽頁面</topic>
+<topic id="swriter/text/swriter/guide/print_small.xhp">在單張紙上列印多頁</topic>
+<topic id="swriter/text/swriter/guide/pagestyles.xhp">建立和套用頁面樣式</topic>
+		</node>
+		<node id="0223" title="搜尋和代替">
+<topic id="swriter/text/swriter/guide/search_regexp.xhp">在文字搜尋中使用萬用字元</topic>
+<topic id="shared/text/shared/01/02100001.xhp">常規表示式的清單</topic>
+		</node>
+	</help_section>
+	<help_section application="swriter" id="06" title="HTML 文件">
+<topic id="shared/text/shared/07/09000000.xhp">網頁</topic>
+<topic id="shared/text/shared/02/01170700.xhp">HTML篩選器與表單</topic>
+<topic id="swriter/text/swriter/guide/send2html.xhp">以 HTML 格式儲存文字文件</topic>
+	</help_section>
+</tree_view>

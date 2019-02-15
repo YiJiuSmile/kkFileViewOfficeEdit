@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--***********************************************************
+ * 
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ * 
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ * 
+ ***********************************************************-->
+<tree_view version="24-Aug-2004">
+	<help_section application="scalc" id="08" title="試算表">
+		<node id="0801" title="一般資訊和使用者介面用法">
+<topic id="scalc/text/scalc/main0000.xhp">歡迎使用 %PRODUCTNAME Calc 說明</topic>
+<topic id="scalc/text/scalc/main0503.xhp">%PRODUCTNAME Calc 的功能</topic>
+<topic id="scalc/text/scalc/guide/keyboard.xhp">組合鍵 (%PRODUCTNAME Calc 協助工具)</topic>
+<topic id="scalc/text/scalc/04/01020000.xhp">工作表文件的組合鍵</topic>
+<topic id="scalc/text/scalc/05/02140000.xhp">%PRODUCTNAME Calc 中的錯誤碼</topic>
+<topic id="scalc/text/scalc/01/04060112.xhp">%PRODUCTNAME Calc 中程式設計的 Add-In</topic>
+<topic id="scalc/text/scalc/guide/main.xhp">使用 %PRODUCTNAME Calc 的說明</topic>
+		</node>
+		<node id="0802" title="指令和功能表參照">
+			<node id="080201" title="功能表">
+<topic id="scalc/text/scalc/main0100.xhp">功能表</topic>
+<topic id="scalc/text/scalc/main0101.xhp">檔案</topic>
+<topic id="scalc/text/scalc/main0102.xhp">編輯</topic>
+<topic id="scalc/text/scalc/main0103.xhp">檢視</topic>
+<topic id="scalc/text/scalc/main0104.xhp">插入</topic>
+<topic id="scalc/text/scalc/main0105.xhp">格式</topic>
+<topic id="scalc/text/scalc/main0106.xhp">工具</topic>
+<topic id="scalc/text/scalc/main0107.xhp">視窗</topic>
+<topic id="scalc/text/scalc/main0112.xhp">資料</topic>
+			</node>
+			<node id="080202" title="工具列">
+<topic id="scalc/text/scalc/main0200.xhp">工具列</topic>
+<topic id="scalc/text/scalc/main0202.xhp">格式列</topic>
+<topic id="scalc/text/scalc/main0203.xhp">繪圖物件特性列</topic>
+<topic id="scalc/text/scalc/main0205.xhp">文字格式列</topic>
+<topic id="scalc/text/scalc/main0206.xhp">編輯列</topic>
+<topic id="scalc/text/scalc/main0208.xhp">狀態列</topic>
+<topic id="scalc/text/scalc/main0210.xhp">頁面預覽列</topic>
+<topic id="scalc/text/scalc/main0214.xhp">圖片列</topic>
+<topic id="scalc/text/scalc/main0218.xhp">工具列</topic>
+<topic id="shared/text/shared/main0201.xhp">標準列</topic>
+<topic id="shared/text/shared/main0209.xhp">超連結位址欄</topic>
+<topic id="shared/text/shared/main0212.xhp">表格資料列</topic>
+<topic id="shared/text/shared/main0213.xhp">[表單瀏覽] 工具列</topic>
+<topic id="shared/text/shared/main0214.xhp">查詢設計列</topic>
+<topic id="shared/text/shared/main0226.xhp">表單設計工具列</topic>
+			</node>
+		</node>
+		<node id="0803" title="功能類型和運算子">
+<topic id="scalc/text/scalc/01/04060000.xhp">函數精靈</topic>
+<topic id="scalc/text/scalc/01/04060100.xhp">函數 (依分類)</topic>
+<topic id="scalc/text/scalc/01/04060101.xhp">資料庫函數</topic>
+<topic id="scalc/text/scalc/01/04060102.xhp">日期和時間函數</topic>
+<topic id="scalc/text/scalc/01/04060103.xhp">財務函數第一部分</topic>
+<topic id="scalc/text/scalc/01/04060119.xhp">財務函數第二部分</topic>
+<topic id="scalc/text/scalc/01/04060118.xhp">財務函數第三部分</topic>
+<topic id="scalc/text/scalc/01/04060104.xhp">資訊函數</topic>
+<topic id="scalc/text/scalc/01/04060105.xhp">邏輯函數</topic>
+<topic id="scalc/text/scalc/01/04060106.xhp">數學函數</topic>
+<topic id="scalc/text/scalc/01/04060107.xhp">陣列函數</topic>
+<topic id="scalc/text/scalc/01/04060108.xhp">統計函數</topic>
+<topic id="scalc/text/scalc/01/04060181.xhp">統計函數第一部分</topic>
+<topic id="scalc/text/scalc/01/04060182.xhp">統計函數第二部分</topic>
+<topic id="scalc/text/scalc/01/04060183.xhp">統計函數第三部分</topic>
+<topic id="scalc/text/scalc/01/04060184.xhp">統計函數第四部分</topic>
+<topic id="scalc/text/scalc/01/04060185.xhp">統計函數第五部分</topic>
+<topic id="scalc/text/scalc/01/04060109.xhp">試算表函數</topic>
+<topic id="scalc/text/scalc/01/04060110.xhp">文字函數</topic>
+<topic id="scalc/text/scalc/01/04060111.xhp">Add-In 函數</topic>
+<topic id="scalc/text/scalc/01/04060115.xhp">Add-In 函數，分析函數清單第一部分</topic>
+<topic id="scalc/text/scalc/01/04060116.xhp">Add-In 函數，分析函數清單第二部分</topic>
+
+<topic id="scalc/text/scalc/01/04060199.xhp">%PRODUCTNAME Calc 中的運算子</topic>
+<topic id="scalc/text/scalc/guide/userdefined_function.xhp">使用者定義的函數</topic>
+		</node>
+		<node id="0804" title="載入、儲存、匯入和匯出">
+<topic id="scalc/text/scalc/guide/webquery.xhp">將外部資料插入表格 (WebQuery)</topic>
+<topic id="scalc/text/scalc/guide/html_doc.xhp">儲存與開啟 HTML 中的試算表</topic>
+<topic id="scalc/text/scalc/guide/csv_formula.xhp">匯入與匯出文字檔案</topic>
+		</node>
+		<node id="0805" title="格式化">
+<topic id="scalc/text/scalc/guide/text_rotate.xhp">旋轉文字</topic>
+<topic id="scalc/text/scalc/guide/text_wrap.xhp">寫入多行文字</topic>
+<topic id="scalc/text/scalc/guide/text_numbers.xhp">將數字格式化為文字</topic>
+<topic id="scalc/text/scalc/guide/super_subscript.xhp">文字上標/下標</topic>
+<topic id="scalc/text/scalc/guide/row_height.xhp">變更列高或欄寬</topic>
+<topic id="scalc/text/scalc/guide/cellstyle_conditional.xhp">套用條件式格式</topic>
+<topic id="scalc/text/scalc/guide/cellstyle_minusvalue.xhp">反白顯示負數</topic>
+<topic id="scalc/text/scalc/guide/cellstyle_by_formula.xhp">依公式指定格式</topic>
+<topic id="scalc/text/scalc/guide/integer_leading_zero.xhp">輸入具有前導零的數字</topic>
+<topic id="scalc/text/scalc/guide/format_table.xhp">格式化試算表</topic>
+<topic id="scalc/text/scalc/guide/format_value.xhp">格式化具有小數點的數字</topic>
+<topic id="scalc/text/scalc/guide/value_with_name.xhp">命名儲存格</topic>
+<topic id="scalc/text/scalc/guide/table_rotate.xhp">旋轉表格 (轉置)</topic>
+<topic id="scalc/text/scalc/guide/rename_table.xhp">重新命名試算表</topic>
+<topic id="scalc/text/scalc/guide/year2000.xhp">19xx/20xx 年</topic>
+<topic id="scalc/text/scalc/guide/rounding_numbers.xhp">使用捨去數字</topic>
+<topic id="scalc/text/scalc/guide/currency_format.xhp">貨幣格式的儲存格</topic>
+<topic id="scalc/text/scalc/guide/autoformat.xhp">使用表格的自動格式</topic>
+<topic id="scalc/text/scalc/guide/note_insert.xhp">插入和編輯備註</topic>
+<topic id="scalc/text/scalc/guide/design.xhp">選取試算表的主題</topic>
+<topic id="scalc/text/scalc/guide/fraction_enter.xhp">輸入分數</topic>
+		</node>
+		<node id="0806" title="篩選和排序">
+<topic id="scalc/text/scalc/guide/filters.xhp">套用篩選</topic>
+<topic id="scalc/text/scalc/guide/specialfilter.xhp">篩選：套用進階篩選</topic>
+<!-- removed scalc/text/scalc/guide/standardfilter.xhp -->
+<topic id="scalc/text/scalc/guide/autofilter.xhp">套用自動篩選</topic>
+<topic id="scalc/text/scalc/guide/sorted_list.xhp">套用排序清單</topic>
+		</node>
+		<node id="0807" title="列印">
+<topic id="scalc/text/scalc/guide/print_title_row.xhp">列印每頁的列或欄</topic>
+<topic id="scalc/text/scalc/guide/print_landscape.xhp">以橫向格式列印試算表</topic>
+<topic id="scalc/text/scalc/guide/print_details.xhp">列印試算表詳細資訊</topic>
+<topic id="scalc/text/scalc/guide/print_exact.xhp">定義列印的頁數</topic>
+		</node>
+		<node id="0808" title="資料範圍">
+<topic id="scalc/text/scalc/guide/database_define.xhp">定義資料庫範圍</topic>
+<topic id="scalc/text/scalc/guide/database_filter.xhp">篩選儲存格範圍 </topic>
+<!-- removed scalc/text/scalc/guide/database_group.xhp -->
+<topic id="scalc/text/scalc/guide/database_sort.xhp">排序資料</topic>
+		</node>
+		<node id="0809" title="Pivot Table">
+<topic id="scalc/text/scalc/guide/datapilot.xhp">Pivot Table</topic>
+<topic id="scalc/text/scalc/guide/datapilot_createtable.xhp">Creating Pivot Tables</topic>
+<topic id="scalc/text/scalc/guide/datapilot_deletetable.xhp">Deleting Pivot Tables</topic>
+<topic id="scalc/text/scalc/guide/datapilot_edittable.xhp">Editing Pivot Tables</topic>
+<topic id="scalc/text/scalc/guide/datapilot_filtertable.xhp">Filtering Pivot Tables</topic>
+<topic id="scalc/text/scalc/guide/datapilot_tipps.xhp">Selecting Pivot Table Output Ranges</topic>
+<topic id="scalc/text/scalc/guide/datapilot_updatetable.xhp">Updating Pivot Tables</topic>
+		</node>
+		<node id="0810" title="分析藍本">
+<topic id="scalc/text/scalc/guide/scenario.xhp">使用分析藍本</topic>
+		</node>
+		<node id="0811" title="參照">
+<topic id="scalc/text/scalc/guide/relativ_absolut_ref.xhp">位址與參照，絕對與相對</topic>
+<topic id="scalc/text/scalc/guide/cellreferences.xhp">參照其他文件的儲存格</topic>
+<topic id="scalc/text/scalc/guide/cellreferences_url.xhp">參照其他試算表與參照 URL</topic>
+<topic id="scalc/text/scalc/guide/cellreference_dragdrop.xhp">依拖放參照儲存格</topic>
+<topic id="scalc/text/scalc/guide/address_auto.xhp">識別名稱為定址</topic>
+		</node>
+		<node id="0812" title="檢視、選取、複製">
+<topic id="scalc/text/scalc/guide/table_view.xhp">變更表格檢視</topic>
+<topic id="scalc/text/scalc/guide/formula_value.xhp">顯示公式或值</topic>
+<topic id="scalc/text/scalc/guide/line_fix.xhp">固定列或欄作為標題</topic>
+<topic id="scalc/text/scalc/guide/multi_tables.xhp">Navigating Through Sheets Tabs</topic>
+<topic id="scalc/text/scalc/guide/edit_multitables.xhp">複製到多個試算表</topic>
+<topic id="scalc/text/scalc/guide/cellcopy.xhp">僅複製可見的存儲格</topic>
+<topic id="scalc/text/scalc/guide/mark_cells.xhp">選取多個儲存格</topic>
+		</node>
+		<node id="0813" title="公式和計算">
+<topic id="scalc/text/scalc/guide/formulas.xhp">用公式計算</topic>
+<topic id="scalc/text/scalc/guide/formula_copy.xhp">複製公式</topic>
+<topic id="scalc/text/scalc/guide/formula_enter.xhp">輸入公式</topic>
+<topic id="scalc/text/scalc/guide/formula_value.xhp">顯示公式或值</topic>
+<topic id="scalc/text/scalc/guide/calculate.xhp">在試算表中計算</topic>
+<topic id="scalc/text/scalc/guide/calc_date.xhp">利用日期和時間計算</topic>
+<topic id="scalc/text/scalc/guide/calc_series.xhp">自動計算數列</topic>
+<topic id="scalc/text/scalc/guide/calc_timevalues.xhp">計算時間差異值</topic>
+<topic id="scalc/text/scalc/guide/matrixformula.xhp">輸入矩陣公式</topic>
+		</node>
+		<node id="0814" title="保護">
+<topic id="scalc/text/scalc/guide/cell_protect.xhp">防止儲存格變更</topic>
+<topic id="scalc/text/scalc/guide/cell_unprotect.xhp">取消保護儲存格</topic>
+		</node>
+		<node id="0815" title="其它">
+<!-- removed scalc/text/scalc/guide/autofill.xhp -->
+<topic id="scalc/text/scalc/guide/auto_off.xhp">關閉自動變更</topic>
+<topic id="scalc/text/scalc/guide/consolidate.xhp">合併計算資料</topic>
+<topic id="scalc/text/scalc/guide/goalseek.xhp">套用目標搜尋</topic>
+<topic id="scalc/text/scalc/guide/multioperation.xhp">套用多重運算</topic>
+<topic id="scalc/text/scalc/guide/multitables.xhp">Applying Multiple Sheets</topic>
+<topic id="scalc/text/scalc/guide/validity.xhp">儲存格內容的有效性</topic>
+		</node>
+	</help_section>
+</tree_view>

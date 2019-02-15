@@ -1,0 +1,17 @@
+---------------------------------------------------------------------
+winPenPack Project § X-Software collection
+Copyright © 2005-2013 Danilo Leggieri and winPenPack Development Team
+---------------------------------------------------------------------
+
+http://www.winpenpack.com
+winpenpack@gmail.com
+winPenPack License Agreement:
+http://www.winpenpack.com/main/page.php?5
+
+=====================================================================
+X-ApacheOpenOffice 4.0.0 [rev 3]
+Original software Author: The Apache Software Foundation
+Original software Home: http://www.openoffice.org/
+Original software license: Apache License 2.0
+X-Software (portable) released on: 23/07/2013
+=====================================================================

@@ -1,0 +1,79 @@
+---------------------------------------------------------------------
+winPenPack Project § X-Software collection
+Copyright © 2005-2013 Danilo Leggieri and winPenPack Development Team
+---------------------------------------------------------------------
+
+http://www.winpenpack.com
+winpenpack@gmail.com
+winPenPack License Agreement:
+http://www.winpenpack.com/en/page.php?5
+ 
+ 
+===================================
+Authors (last revision: 10.11.2012)			
+===================================
+
+
+NOTE: if someone thinks it have to be included in
+this list, please send email us to winpenpack@gmail.com
+
+
+--------
+Contents
+--------
+1. winPenPack Team
+2. Collaborators (doc editors, translators, developers and testers)
+3. Support and development
+4. Translators
+
+
+
+1. winPenPack Team
+------------------
+Danilo Leggieri (Danix, founder)
+Marco Braidotti (Taf)
+Antonio Renna (ZioZione)
+Romeo Cafaro (Rcs)
+Massimo Pietrolonardo (zandet2)
+Federico Girotto (Energy)
+Roberto Bragaglia (LordJim60)
+
+
+
+2. Collaborators (doc editors, translators, developers and testers)
+-------------------------------------------------------------------
+Pierluigi Malvezzi (tomcat)
+Emiliana Tomba (Emily84)
+
+
+
+3. Support and development
+--------------------------
+Roberto Viola (_vroby_ , http://www.sdlbasic.altervista.org)
+Lamberto Tedaldi (zoiba, http://www.officinepixel.com)
+Andrea Giammarchi (http://code.google.com/p/pampa-j/)
+
+
+
+4. Translators
+--------------
+Nelson Martell (wpp menu v2.x - Spanish)
+Åke Engelbrektson (wpp menu v2.x - Swedish)
+Fraggle (wpp menu v1.x - German)
+TaZmaniak (wpp menu v1.x - French)
+Fonfon (wpp menu v1.x - French)
+Urius (wpp menu v1.x - Russian)
+Anderson Brazuca (wpp menu v1.x - Spanish)
+Fernando Pérez (wpp menu v1.x - Spanish)
+Davit Amunarriz (wpp menu v1.x - Spanish)
+Taborsky Lubos (wpp menu v1.x - Czech)
+C.Felipe de S. Tenreiro (wpp menu v1.x - Portuguese)
+Gatobravo (wpp menu v1.x - Portuguese)
+Xyrk0 (wpp menu v1.x - Slovak)
+Prasit Kaephukhieo (wpp menu v1.x - Thai)
+Dritan Cami (wpp menu v1.x - Albanian)
+Nekro (wpp menu v1.x - Norwegian)
+Piotr Parafiniuk (wpp menu v1.x - Polish)
+Edit Maléth (wpp menu v1.x - Hungarian)
+Ales Petric (wpp menu v1.x - Slovenian)
+Steve Robinson (english translation of X-Launcher tutorial)

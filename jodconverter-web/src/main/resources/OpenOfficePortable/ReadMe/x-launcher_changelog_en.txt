@@ -1,0 +1,213 @@
+---------------------------------------------------------------------
+winPenPack Project § X-Software collection
+Copyright © 2005-2013 Danilo Leggieri and winPenPack Development Team
+---------------------------------------------------------------------
+
+http://www.winpenpack.com
+winpenpack@gmail.com
+winPenPack License Agreement:
+http://www.winpenpack.com/en/page.php?5
+
+
+=====================
+X-Launcher change log
+=====================
+
+
+--------
+Contents
+--------
+1. X-Launcher informations
+2. Release notes
+3. License and copyright
+4. Change Log
+
+
+
+1. X-Launcher informations
+--------------------------
+X-Launcher is part of winPenPack project. It allows to freely change all the
+starting options of programs, in order to make them portable, i.e. runnable
+by removable storage devices, like USB keys or external hard disks.
+In this new version, the winPenPack Team has greatly improved the code of previous
+1.1 version, developed by original author, Gabriele Tittonel.
+
+
+
+2. Release notes
+----------------
+Version: 1.5.1 stable
+Released on: 29/08/2012
+Source code: included in this package
+
+
+
+3. License and copyright
+------------------------
+Please read the license_en.txt file
+
+
+
+4. Change Log
+-------------
+
+Pending Modifications :
+
+- (Bug fixed) Bug StringReplace: the launcher stops with error if start and stop
+  directives contain uppercase characters other than the ones contained into the
+  file to modify.
+
+
+
+Modifications between 1.5.0 and 1.5.1 releases:
+
+- (Improvement) JavaGet: installation of Java update in \Lib folder even if Java is found
+  both in the guest PC.
+
+
+
+Modifications between 1.4.3 and 1.5.0 releases:
+
+- (Bug fixed) IsClosing bug: in case of previous system crash, the "X-Software is closing"
+  message was shown, preventing to run the Software until manual deletion of temporary files.
+
+- (Bug Fixed) Bug SystemLanguage: recognized system language when LANG environment
+   variable is not found.
+
+- (Improvement) HideShellWindow: new option that allow to hide the command shell window
+  for the programs that shows it.
+
+- (Improvement) _PathEncode: new function that allow to centralize the decoding of
+  particular characters in the paths, still using, for backward compatibility, the "%20"
+  string that triggers the function.
+
+- (Improvement) JavaGet: integration of JavaGet functionalities into the launcher.
+  New functionality: if Java is not installed into \Lib folder, but is installed into
+  the guest PC, the latter is used, without downloading and installing Java into \Lib
+  folder. Added management of particular cases of installed Java corrupted configurations.
+  If Java is found both in the guest PC and in the Pack, is used the latest version.
+
+- (Improvement) FirstRunOperations: new .ini file section "FirstRunOperations" and new
+  "FirstRun" option for execute (only when "FirstRun=true") following commands: _DirCopy,
+  _DirCreate, _DirMove, _DirRemove, _FileCopy, _FileCreatePlus, _FileDelete, _FileMove,
+  _RunWait. This function, after the execution of the commands into the "FirstRunOperations"
+  section, sets FirstRun=false.
+
+- (Improvement) TrayTip: new function, absolutely equivalent to ShowSplash, that shows a
+  traybar alert at each launcher execution.
+
+
+
+Modifications between 1.4.2 and 1.4.3 releases:
+
+- (Bug fixed) Registry: rewritten code for system registry management to improve
+  Windows Vista compatibility.
+
+- (Improvement) Registry: new parameters RegEdit and RequireAdmin to manage external
+  registry editor when admin rights are required.
+
+
+
+Modifications between 1.4.1 and 1.4.2 releases:
+
+- (Bug fixed) Startup parameters: fixed bug in the handling of startup
+  parameters when running programs.
+
+
+
+Modifications between 1.4 and 1.4.1 releases:
+
+- (Improvement) Wildcard: added support to multi path with
+   wildcard in StringReplace and StringRegExpReplace functions.
+
+- (Bug fixed) Relative Paths: in some functions (DirMove, DirRemove, FileMove),
+  the relative paths were not correctly interpreted.
+
+- (Bug fixed) Startup parameters: fixed bug in the handling of multiple
+  startup parameters when running programs.
+
+- (Improvement) DirRemove: new option for DirRemove function; allows to
+  recursively delete only empty folders.
+
+
+
+Modifications between 1.3.1 and 1.4 releases:
+
+- (Bug fixed) Splash Screen: code rewritten for increase programs startup
+  and avoid blocks caused by protection systems.
+
+- (Bug fixed) Bug DirMove: moving folders with overwrite; if destination
+  folder was already existing, the source folder was inserted within it.
+
+- (Bug fixed) Improved management of multiple processes (win2000 bug).
+
+- (Improvement) StringRegExpReplace: new function that allows to modify text
+  files using Regular Expressions.
+
+- (Improvement) StringReplace: new option for StringReplace function; allows to
+  overwrite start and end string delimitators.
+
+- (Improvement DirMove: new options for DirMove function; allow to precisely define
+  the behavior in the function if the destination folder already exists.
+
+- (Improvement) New variables containing all the names of the folders involved in
+  the portabilization process, for a better management of rewriting paths.
+
+
+
+Modifications between 1.3 and 1.3.1 releases:
+
+- (Bug fixed) IsClosing bug: in case of incorrect or incomplete launcher
+  closure, the "X-Software is closing" message was shown, preventing
+  to run the Software until manual deletion of temporary files.
+
+- (Bug fixed) IsRunning bug: in case of incorrect or incomplete launcher
+  closure, the variable "IsRunning" remained set to TRUE, preventing the
+  correct run of the launcher in subsequent runs.
+
+- (Added) System shutdown: added automatic launcher closure on case of
+  system shutdown.
+
+
+
+Modifications between 1.1 and 1.3 releases:
+
+- (BugFix) Performance improvements: page faults error and too high
+  CPU consumption (fixed using the RunWait() instruction and other tricks).
+
+- (BugFix) IsRunning bug: starting multiple istances of an application,
+  at the second run IsRunning is set to False, so, on the third (fith,
+  seventh, etc.) run, the Launcher is executed as was the first one.
+
+- (BugFix) Single Launcher bug: if the X-Launcher.cfg file is not
+  properly set, the temporary folders are overwritten.
+
+- (BugFix) Java applications bug: with Java applications, the RunAfter
+  section was not correctly processed if multiple Java (istances or
+  applications) was executed.
+
+- (BugFix) RunWait=false bug: using this option, the temporary
+  folders were not deleted.
+
+- (BugFix) ShowSplash bug: on Vista and Win2000, the Splash Screen
+  was not visualized.
+
+- (BugFix) WriteToReg: the "%%" string was written as "%"
+  on the .reg file.
+
+- (BugFix) MultipleIstance=false (with Java) bug: used with Java
+  programs, this parameter did not work correctly.
+
+- (BugFix) IsClosing bug: restart of an application was inhibited if the
+  previous instance was still performing close operations (for obsolete or
+  very slow operative systems).
+
+- (BugFix) Network address bug: the launcher was not able to resolve
+  network address.
+
+- (Improvement) New features Local AppData and Local Settings: allows
+  the launcher to work on folders
+  C:\Documents and Settings\USER\Local Settings and
+  C:\Documents and Settings\USER\Local Settings\Application Data.
+
+- (Improvement) Graphics: modified Splash Screen and main icon.

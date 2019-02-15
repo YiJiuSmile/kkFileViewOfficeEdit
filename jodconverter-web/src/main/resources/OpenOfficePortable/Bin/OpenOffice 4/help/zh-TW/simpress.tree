@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--***********************************************************
+ * 
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ * 
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ * 
+ ***********************************************************-->
+<tree_view version="24-Aug-2004">
+	<help_section application="simpress" id="04" title="簡報和繪圖">
+		<node id="0401" title="一般資訊和使用者介面用法">
+<topic id="simpress/text/simpress/main0000.xhp">歡迎使用 %PRODUCTNAME Impress 說明</topic>
+<topic id="sdraw/text/sdraw/main0000.xhp">歡迎使用 %PRODUCTNAME Draw 說明</topic>
+<topic id="simpress/text/simpress/main0503.xhp">%PRODUCTNAME Impress 的功能</topic>
+<topic id="sdraw/text/sdraw/main0503.xhp">%PRODUCTNAME Draw 的功能</topic>
+<topic id="simpress/text/simpress/guide/keyboard.xhp">使用 %PRODUCTNAME Impress 中的捷徑鍵</topic>
+<topic id="sdraw/text/sdraw/guide/keyboard.xhp">用於繪圖物件的組合鍵</topic>
+<topic id="simpress/text/simpress/04/01020000.xhp">%PRODUCTNAME Impress 的組合鍵</topic>
+<topic id="sdraw/text/sdraw/04/01020000.xhp">用於繪圖的組合鍵</topic>
+<topic id="simpress/text/simpress/guide/main.xhp">有關使用 %PRODUCTNAME Impress 的說明</topic>
+<topic id="sdraw/text/sdraw/guide/main.xhp">使用 %PRODUCTNAME Draw 的說明</topic>
+		</node>
+		<node id="0402" title="指令和功能表參照">
+			<node id="040201" title="簡報 (%PRODUCTNAME Impress)">
+				<node id="04020101" title="功能表">
+<topic id="simpress/text/simpress/main0100.xhp">功能表</topic>
+<topic id="simpress/text/simpress/main0101.xhp">檔案</topic>
+<topic id="simpress/text/simpress/main0102.xhp">編輯</topic>
+<topic id="simpress/text/simpress/main0103.xhp">檢視</topic>
+<topic id="simpress/text/simpress/main0104.xhp">插入</topic>
+<topic id="simpress/text/simpress/main0105.xhp">格式</topic>
+<topic id="simpress/text/simpress/main0106.xhp">工具</topic>
+<topic id="simpress/text/simpress/main0107.xhp">視窗</topic>
+<topic id="simpress/text/simpress/main0114.xhp">投影片放映</topic>
+				</node>
+				<node id="04020102" title="工具列">
+<topic id="simpress/text/simpress/main0200.xhp">工具列</topic>
+<topic id="simpress/text/simpress/main0202.xhp">線條與充填列</topic>
+<topic id="simpress/text/simpress/main0203.xhp">文字格式列</topic>
+<topic id="simpress/text/simpress/main0204.xhp">投影片檢視中的物件工具列</topic>
+<topic id="simpress/text/simpress/main0206.xhp">狀態列</topic>
+<topic id="simpress/text/simpress/main0209.xhp">標尺</topic>
+<topic id="simpress/text/simpress/main0210.xhp">繪圖列</topic>
+<topic id="simpress/text/simpress/main0211.xhp">大綱工具列</topic>
+<topic id="simpress/text/simpress/main0212.xhp">投影片瀏覽列</topic>
+<topic id="simpress/text/simpress/main0213.xhp">選項列</topic>
+<topic id="simpress/text/simpress/main0214.xhp">圖片列</topic>
+<topic id="shared/text/shared/main0201.xhp">標準列</topic>
+<topic id="shared/text/shared/main0209.xhp">超連結位址欄</topic>
+<topic id="shared/text/shared/main0213.xhp">[表單瀏覽] 工具列</topic>
+<topic id="shared/text/shared/main0226.xhp">表單設計工具列</topic>
+<topic id="shared/text/shared/main0227.xhp">編輯接點列</topic>
+				</node>
+			</node>
+			<node id="040202" title="繪圖 (%PRODUCTNAME Draw)">
+				<node id="04020201" title="功能表">
+<topic id="sdraw/text/sdraw/main0100.xhp">功能表</topic>
+<topic id="sdraw/text/sdraw/main0101.xhp">檔案</topic>
+<topic id="sdraw/text/sdraw/main0102.xhp">編輯</topic>
+<topic id="sdraw/text/sdraw/main0103.xhp">檢視</topic>
+<topic id="sdraw/text/sdraw/main0104.xhp">插入</topic>
+<topic id="sdraw/text/sdraw/main0105.xhp">格式</topic>
+<topic id="sdraw/text/sdraw/main0106.xhp">工具</topic>
+<topic id="simpress/text/simpress/main0113.xhp">變更</topic>
+				</node>
+				<node id="04020202" title="工具列">
+<topic id="sdraw/text/sdraw/main0200.xhp">工具列</topic>
+<topic id="sdraw/text/sdraw/main0210.xhp">繪圖列</topic>
+<topic id="sdraw/text/sdraw/main0213.xhp">選項列</topic>
+<topic id="shared/text/shared/main0201.xhp">標準列</topic>
+<topic id="shared/text/shared/main0209.xhp">超連結位址欄</topic>
+<topic id="shared/text/shared/main0213.xhp">[表單瀏覽] 工具列</topic>
+<topic id="shared/text/shared/main0226.xhp">表單設計工具列</topic>
+<topic id="shared/text/shared/main0227.xhp">編輯接點列</topic>
+				</node>
+			</node>
+		</node>
+		<node id="0403" title="載入、儲存、匯入和匯出">
+<topic id="simpress/text/simpress/guide/html_export.xhp">以 HTML 格式儲存簡報</topic>
+<topic id="simpress/text/simpress/guide/html_import.xhp">匯入 HTML 頁到簡報</topic>
+<topic id="simpress/text/simpress/guide/palette_files.xhp">載入顏色、漸層色圖案和陰影線清單</topic>
+<topic id="simpress/text/simpress/guide/animated_gif_save.xhp">以 GIF 格式匯出動畫</topic>
+<topic id="simpress/text/simpress/guide/table_insert.xhp">在投影片中包括試算表</topic>
+<topic id="sdraw/text/sdraw/guide/graphic_insert.xhp">插入圖形</topic>
+<topic id="simpress/text/simpress/guide/page_copy.xhp">從其他簡報複製投影片</topic>
+		</node>
+		<node id="0404" title="格式化">
+<topic id="simpress/text/simpress/guide/palette_files.xhp">載入顏色、漸層色圖案和陰影線清單</topic>
+<topic id="simpress/text/simpress/guide/line_arrow_styles.xhp">載入線條和箭頭樣式</topic>
+<topic id="sdraw/text/sdraw/guide/color_define.xhp">定義自訂顏色</topic>
+<topic id="sdraw/text/sdraw/guide/gradient.xhp">建立漸層色圖案充填</topic>
+<topic id="sdraw/text/sdraw/guide/eyedropper.xhp">替代顏色</topic>
+<topic id="sdraw/text/sdraw/guide/align_arrange.xhp">排序, 對齊與分布物件</topic>
+<topic id="simpress/text/simpress/guide/background.xhp">變更投影片背景充填</topic>
+<topic id="simpress/text/simpress/guide/footer.xhp">新增頁首或頁尾至所有投影片</topic>
+<topic id="simpress/text/simpress/guide/masterpage.xhp">將投影片設計套用至投影片母片</topic>
+<topic id="simpress/text/simpress/guide/move_object.xhp">移動物件</topic>
+		</node>
+		<node id="0405" title="列印">
+<topic id="simpress/text/simpress/guide/printing.xhp">列印簡報</topic>
+<topic id="simpress/text/simpress/guide/print_tofit.xhp">列印投影片以配合頁面大小</topic>
+		</node>
+		<node id="0406" title="效果">
+<topic id="simpress/text/simpress/guide/animated_gif_save.xhp">以 GIF 格式匯出動畫</topic>
+<topic id="simpress/text/simpress/guide/animated_objects.xhp">簡報投影片中的動畫物件</topic>
+<topic id="simpress/text/simpress/guide/animated_slidechange.xhp">動畫切換投影片</topic>
+<topic id="sdraw/text/sdraw/guide/cross_fading.xhp">漸漸隱出兩個物件</topic>
+<topic id="simpress/text/simpress/guide/animated_gif_create.xhp">建立動畫 GIF 影像</topic>
+		</node>
+		<node id="0407" title="物件、圖形和點陣圖">
+<topic id="sdraw/text/sdraw/guide/combine_etc.xhp">組合物件並建構形狀</topic>
+<topic id="sdraw/text/sdraw/guide/draw_sector.xhp">繪圖扇區和區段</topic>
+<topic id="sdraw/text/sdraw/guide/duplicate_object.xhp">複製物件</topic>
+<topic id="sdraw/text/sdraw/guide/rotate_object.xhp">旋轉物件</topic>
+<topic id="sdraw/text/sdraw/guide/join_objects3d.xhp">組合 3D 物件</topic>
+<topic id="sdraw/text/sdraw/guide/join_objects.xhp">連結線條</topic>
+<topic id="simpress/text/simpress/guide/text2curve.xhp">轉換文字字元為繪圖物件</topic>
+<topic id="simpress/text/simpress/guide/vectorize.xhp">將點陣圖影像轉換為向量圖形</topic>
+<topic id="simpress/text/simpress/guide/3d_create.xhp">將平面物件轉換成曲線、多邊形以及 3D 物件</topic>
+<topic id="simpress/text/simpress/guide/line_arrow_styles.xhp">載入線條和箭頭樣式</topic>
+<topic id="simpress/text/simpress/guide/line_draw.xhp">繪製曲線</topic>
+<topic id="simpress/text/simpress/guide/line_edit.xhp">編輯曲線</topic>
+<topic id="sdraw/text/sdraw/guide/graphic_insert.xhp">插入圖形</topic>
+<topic id="simpress/text/simpress/guide/table_insert.xhp">在投影片中包括試算表</topic>
+<topic id="simpress/text/simpress/guide/move_object.xhp">移動物件</topic>
+<topic id="simpress/text/simpress/guide/select_object.xhp">選取基礎物件</topic>
+<topic id="simpress/text/simpress/guide/orgchart.xhp">建立流程圖</topic>
+		</node>
+		<node id="0408" title="群組和分層">
+<topic id="sdraw/text/sdraw/guide/groups.xhp">分組物件</topic>
+<topic id="simpress/text/simpress/guide/layers.xhp">關於分層</topic>
+<topic id="simpress/text/simpress/guide/layer_new.xhp">插入分層</topic>
+<topic id="simpress/text/simpress/guide/layer_tipps.xhp">使用分層</topic>
+<topic id="simpress/text/simpress/guide/layer_move.xhp">移動物件到不同的分層</topic>
+		</node>
+		<node id="0409" title="簡報和繪圖中的文字">
+<!-- removed sdraw/text/sdraw/guide/text_3d.xhp -->
+<!-- removed sdraw/text/sdraw/guide/text_to_bitmap.xhp -->
+<topic id="sdraw/text/sdraw/guide/text_enter.xhp">加入文字</topic>
+<topic id="simpress/text/simpress/guide/text2curve.xhp">轉換文字字元為繪圖物件</topic>
+		</node>
+		<node id="0410" title="檢視">
+<topic id="simpress/text/simpress/guide/individual.xhp">建立自訂投影片放映</topic>
+<topic id="simpress/text/simpress/guide/arrange_slides.xhp">變更投影片順序</topic>
+<topic id="simpress/text/simpress/guide/change_scale.xhp">使用鍵盤縮放</topic>
+<!-- removed simpress/text/simpress/guide/livemode.xhp -->
+<topic id="simpress/text/simpress/guide/rehearse_timings.xhp">投影片變更的排練計時</topic>
+		</node>
+	</help_section>
+</tree_view>

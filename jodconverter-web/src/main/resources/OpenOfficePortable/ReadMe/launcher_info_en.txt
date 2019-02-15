@@ -1,0 +1,87 @@
+---------------------------------------------------------------------
+winPenPack Project § X-Software collection
+Copyright © 2005-2013 Danilo Leggieri and winPenPack Development Team
+---------------------------------------------------------------------
+
+http://www.winpenpack.com
+winpenpack@gmail.com
+winPenPack License Agreement:
+http://www.winpenpack.com/en/page.php?5
+
+
+===================
+X-Software_launcher
+===================
+
+
+--------
+Contents
+--------
+1. X-Software_launcher informations and usage
+2. Launcher usage with Java programs
+3. How to update the launcher to the new version
+4. License and copyright
+5. Change Log
+
+
+
+1. X-Software_launcher informations and usage
+---------------------------------------------
+This package includes a X-Software_launcher that allows to freely change 
+all the starting options of programs, in order to make them portable, i.e. 
+runnable by removable storage devices, like USB keys or external hard disks. 
+Download the software from the author's website or from winpenpack.com 
+download section and execute one of the following operations:
+
+a) if a .zip version is available from author's website, 
+   decompress it to a folder of your choice;
+
+b) if the setup version is supported by Universal Extractor
+   (http://legroom.net/software/uniextract), extract it to a 
+   folder of your choice;
+
+c) if the setup version is not supported by 
+   Universal Extractor extract it using Innounp
+   (http://innounp.sourceforge.net/);
+
+d) install the setup normally to your hard disk, copy the 
+   installation folder from C:\Program Files and than uninstall 
+   the program.
+
+Copy all executable files to the \Bin\Software\ folder.
+Launch the program by double-clicking on X-Software.exe 
+For more informations, please follow the guidelines to 
+this link: http://www.winpenpack.com/en/page.php?26  
+
+
+
+2. Launcher usage with Java programs
+------------------------------------
+If the program associated to the launcher requires Java Runtime Environment, 
+download it from http://www.java.com/en/download/manual.jsp choosing 
+"Windows XP/Vista/2000/2003 Offline", install it on hard disk and 
+copy "bin" and "lib" java  folders (from C:\Program Files\Java\jre1.XXX) 
+into X-Software_name\Lib\Java folder (this will "delete" the intermediate 
+folder "jre1.XXX"). Then uninstall Java from your hard disk.
+
+
+
+3. How to update the launcher to the new version
+------------------------------------------------
+The update can be done manually, overwriting the files Software.exe 
+and X-Software.ini inside the X-Software folder, or in \winPenPack\XDrive, 
+if the program is included in winPenPack. In this case it is also possible 
+to update automatically the launcher importing it in the menu through the 
+"Install X-Software.." option of winPenPack Menu.
+
+
+
+4. License and copyright
+------------------------
+Please read the license_en.txt file
+
+
+
+5. Change Log
+-------------
+Please read the x-launcher_changelog_en.txt file

@@ -1,0 +1,339 @@
+---------------------------------------------------------------------
+winPenPack Project § X-Software collection
+Copyright © 2005-2013 Danilo Leggieri and winPenPack Development Team
+---------------------------------------------------------------------
+
+http://www.winpenpack.com
+winpenpack@gmail.com
+winPenPack License Agreement:
+http://www.winpenpack.com/main/page.php?5
+
+
+================================================================
+winPenPack License Agreement v1.1 (ultima revisione: 10.04.2011)
+================================================================
+
+
+------
+Indice
+------
+1. Introduzione
+2. Descrizione dei materiali prodotti
+3. Linee generali di licenza e copyright
+4. Utilizzo dei marchi
+5. Redistribuzione dei materiali in forma non modificata
+6. Opere derivate, modifiche e redistribuzione in forma modificata
+7. Attribuzione della paternità
+8. Avviso di violazione di marchi e copyright
+9. Rinuncia alla garanzia e limitazione di responsabilità
+
+
+
+1. Introduzione
+---------------
+Leggere il file wpp_info_it.txt
+
+
+
+2. Descrizione dei materiali prodotti
+-------------------------------------
+
+a) winPenPack
+
+   winPenPack è un ambiente applicativo composto da Software Liberi, modificati per
+   poter essere eseguiti da un pendrive USB, senza dover essere installati;
+   è un sistema all'interno del quale software, documenti, file di inizializzazione
+   e file .xml sono perfettamente integrati fra loro in modo da formare un ambiente
+   applicativo omogeneo. I software portatili inclusi nel winPenPack non hanno necessità
+   di installazione, non scrivono le impostazioni nel computer ospitante e possono
+   essere trasportati da un computer all'altro tramite un qualsiasi supporto di
+   memorizzazione esterno, come hard disk removibili o pendrive USB.
+   Sono già configurati e pronti all'uso, divisi per categoria e avviabili
+   attraverso un pratico menù principale simile al menù Start di Windows, il
+   winPenPack Launcher. winPenPack è distribuito nelle edizioni Flash Essential,
+   Flash 2Gb, Flash School, Flash Web e Flash Game.
+
+
+b) X-Software
+
+   I programmi definiti X-Software, distribuiti in formato .zip ed .exe sui nostri
+   server o presenti su altri server, sono ideazione e creazione del Team di
+   sviluppo. Ciascun X-Software si compone di un launcher, X-Launcher, che permette
+   di modificare a piacimento le opzioni d'avvio dei programmi allo scopo di renderli
+   portabili, il quale avvia un programma originariamente non portabile attraverso
+   un file .ini di configurazione. Gli X-Software, X-Launcher e i file .ini realizzati
+   per le portabilizzazioni sono opera del Team di sviluppo e costituiscono parte
+   integrante di winPenPack.
+
+
+c) winPenPack Menù
+
+   winPenPack Menù (o winPenPack Launcher) è il menù che avvia le applicazioni di 
+   winPenPack, opera realizzata dal Team di sviluppo per il progetto.
+
+
+d) Portable Software
+
+   I Portable Software sono programmi che possono essere eseguiti nel computer
+   ospitante senza lasciare tracce della loro esecuzione. Si tratta generalmente di
+   direct link a file presenti sui siti del produttore che non risiedono sui nostri server,
+   vengono solo individuati e segnalati nelle relative pagine per un eventuale download.
+
+
+e) Sito web e documentazione
+
+   Il dominio ufficiale del progetto è winpenpack.com con mirror su winpenpack.it, 
+   winpenpack.org, winpenpack.info, winpenpack.eu e winpenpack.net. Il progetto è 
+   ospitato anche su SourceForge (http://sourceforge.net/projects/winpenpack/). Il 
+   sito accoglie i winPenPack, i programmi, il codice sorgente, i file di 
+   configurazione e tutta la documentazione realizzata dal Team di sviluppo, dai 
+   collaboratori e dalla community.
+
+
+f) Codice sorgente e sviluppo
+
+   E' possibile contribuire alla crescita del progetto sviluppando ulteriormente
+   i componenti di winPenPack. Il codice sorgente è disponibile nelle rispettive
+   pagine di download.
+
+   Codice sorgente di winPenPack - Repository di SourceForge:
+   http://winpenpack.svn.sourceforge.net/viewvc/winpenpack/
+
+   Per collaborare allo sviluppo dei componenti di winPenPack, fare riferimento
+   alle relative sezioni del forum.
+
+   Sviluppo X-Software:
+   http://www.winpenpack.com/main/e107_plugins/forum/forum_viewforum.php?5
+
+   Sviluppo winPenPack menù:
+   http://www.winpenpack.com/main/e107_plugins/forum/forum_viewforum.php?4
+
+
+
+
+3. Linee generali di licenza e copyright
+----------------------------------------
+
+Il progetto accoglie documenti, testi, idee e materiale protetto dal diritto
+d'autore e software rilasciato sotto diverse licenze. Ciascun componente, software,
+launcher, file di configurazione (.xml .ini) e di documentazione, è regolato dalla
+rispettiva licenza ed è copyright dei rispettivi autori. I materiali prodotti dal
+Team di sviluppo, salvo diverse indicazioni, sono rilasciati sotto GNU General
+Public License. X-Launcher e winPenPack launcher, opere originali del Team di
+sviluppo e parti integranti di winPenPack, sono rilasciati sotto GNU General
+Public License. Relativamente agli X-Software, il programma associato al launcher
+è di proprietà del rispettivo autore, limitandosi winPenPack alla sola opera di
+portabilizzazione, ed è regolato dalla rispettiva licenza. I Portable Software,
+inclusi nei winPenPack o segnalati nella sezione download del sito, sono di proprietà
+dei rispettivi autori e sono regolati dalle rispettive licenze. Tutti i contenuti
+del sito e la documentazione, salvo diverse indicazioni, sono pubblicati sotto Licenza
+Creative Commons (Attribuzione-Non commerciale-Non opere derivate 3.0 -
+http://creativecommons.org/licenses/by-nc-nd/3.0/deed.it).
+
+
+
+
+4. Utilizzo dei marchi
+----------------------
+
+a) Marchi dei programmi inclusi in winPenPack e negli X-Software
+
+   Si riconoscono marchi registrati e nomi commerciali ai legittimi proprietari.
+   Per maggiori dettagli leggere le note supplementari su marchi e copyright 
+   al punto 8.
+
+
+b) Marchi di winPenPack
+
+   Il loghi e i marchi "winPenPack" e "winPenPack - X-Software collection" non 
+   possono essere utilizzati in prodotti o servizi diversi da quelli forniti da 
+   winPenPack, nè possono essere utilizzati in modo da confondere gli utilizzatori 
+   o screditare winPenPack. Fra i nostri materiali, quelli rilasciati sotto GNU 
+   General Public License possono essere redistribuiti gratuitamente in forma NON 
+   modificata senza violare in alcun modo il marchio "winPenPack". Benchè la GNU 
+   General Public License garantisca il diritto di creare e distribuire opere 
+   derivate basate sui nostri materiali, non attribuisce però il diritto di associare 
+   il marchio "winPenPack" a tali prodotti. Pertanto, non è possibile utilizzare i 
+   marchi di winPenPack per le opere derivate se non previa autorizzazione scritta da 
+   parte del winPenPack Team, nè è possibile utilizzarli per scopi commerciali.
+
+
+
+
+5. Redistribuzione dei materiali in forma NON modificata
+--------------------------------------------------------
+
+E' autorizzata la redistribuzione e la divulgazione dei materiali di winPenPack in 
+forma NON modificata (i setup e gli archivi .zip ufficiali degli X-Software rilasciati 
+sotto le licenze open source, i setup e gli archivi .zip non modificati dei winPenPack 
+scaricabili da winpenpack.com, X-Launcher, il winPenPack Launcher e la documentazione) 
+su mirror diversi da quelli ufficiali, in DVD allegati a riviste, siti web e sotto
+qualsiasi altra forma, a condizione che venga riconosciuta e specificata chiaramente 
+la paternità dell'opera originale, facendo espressamente riferimento a winPenPack ed 
+indicando sempre un link a winpenpack.com in pubblicazioni, testate giornalistiche, 
+riviste specializzate, siti web e ogni altro canale informativo. Non è consentita la 
+vendita a scopo di lucro dei materiali (in forma modificata e non modificata) 
+contenenti il marchio winPenPack.
+Gli X-Software contenenti programmi Freeware sono stati realizzati previa autorizzazione
+dei rispettivi autori; tale autorizzazione è valida solo nei confronti di winPenPack e
+non degli utilizzatori, pertanto, qualsiasi altra forma di redistribuzione diversa dalla
+nostra e senza l'autorizzazione dei rispettivi autori potrebbe essere considerata illegale.
+I Portable Software, di proprietà dei rispettivi autori, possono essere redistribuiti
+secondo le previsioni delle singole licenze. Il materiale presente sul sito
+winpenpack.com (testi, .pdf, tutorials, etc.), anche se liberamente scaricabile,
+può essere redistribuito solo in forma NON modificata e deve necessariamente citare
+la fonte titolare dei diritti, oltre che attribuire la paternità dell'opera originale,
+qualora pubblicato su testate giornalistiche, riviste specializzate, siti web e ogni
+altro canale informativo.
+
+
+
+
+6. Opere derivate, modifiche e redistribuzione in forma modificata
+------------------------------------------------------------------
+
+E' lecito modificare i materiali di winPenPack rilasciati sotto GNU General Public
+License, o licenze simili e compatibili, creando perciò opere derivate, e copiare
+o distribuire tali modifiche a patto che sia indicato chiaramente che si tratta
+di copie modificate e la data di ogni modifica.
+
+Il Team di sviluppo considera opere derivate:
+
+a) le suite di programmi portatili che utilizzano il menù di
+   winPenPack modificato;
+
+b) le suite di programmi portatili contenenti software derivati
+   dagli X-Software o che includono programmi portabilizzati tramite
+   X-Launcher, a prescindere dall'utilizzo totale o parziale dei
+   file .ini reperibili su winpenpack.com;
+
+c) i programmi derivati dagli X-Software inclusi nelle distribuzioni
+   ufficiali di winPenPack o presenti nella sezione download di
+   winpenpack.com;
+
+d) i programmi portabilizzati tramite X-Launcher, a prescindere
+   dall'utilizzo totale o parziale dei file .ini reperibili su
+   winpenpack.com.
+
+
+
+Le opere derivate:
+
+a) non possono includere loghi e marchi ufficiali appartenenti a
+   winPenPack e/o falsi riferimenti riconducibili a winPenPack che
+   possano confondere l'utilizzatore; non devono contenere il nome
+   winPenPack (ad esempio, X-winPenPack, winPenPack Plus, winPenPack
+   Mod, etc..), nè altri nomi simili che possano essere confusi con
+   winPenPack (ad esempio, win-PenPack, winPenPak, winPenPach, etc..);
+
+b) devono indicare chiaramente che l'opera derivata si basa su
+   winPenPack, e/o su uno dei suoi componenti, includendo le note
+   di copyright che attribuiscono chiaramente la paternità dell'opera
+   originale, appartenente a winPenPack e ai suoi autori, come 
+   specificato dalla GNU General Public License;
+
+c) devono includere tutte le indicazioni di copyright originali
+   inalterate così come e dove sono state riposte, ad esempio nei
+   file .ini associati agli X-Software, negli splash screen e nei 
+   box about, e aggiungendo il copyright dell'autore delle modifiche 
+   e la data di ogni modifica dopo il copyright originale, così 
+   come previsto dalla GNU General Public License;
+
+d) devono essere rilasciate con una licenza simile a quella di
+   winPenPack e comunque compatibile con le licenze open source
+   ed essere corredate del codice sorgente completo o accompagnate
+   dalle informazioni su come ottenerlo.
+
+
+
+L'utente può:
+
+a) usare gratuitamente e legalmente i winPenPack ufficiali, i
+   software e i materiali regolati dalle licenze open source
+   dove preferisce (casa, scuola, ufficio, etc.);
+
+b) farne legalmente copie per amici, parenti o chiunque altro;
+
+c) utilizzare copie modificate di winPenPack per progetti ed
+   iniziative personali o realizzare e distribuire opere derivate
+   dai winPenPack ufficiali, dagli X-Software e dal materiale
+   prodotto dal Team, indicando chiaramente, secondo i termini
+   esposti, che si tratta di copie modificate basate su winPenPack
+   e/o sui suoi componenti.
+
+
+Il Team di sviluppo è aperto a possibili collaborazioni finalizzate a
+creare software e collezioni personalizzate. Relativamente alle modifiche
+degli X-Software contenenti programmi Freeware, valgono le stesse indicazioni
+del punto 5. I Portable Software, rilasciati sotto licenza "Freeware",
+"Freeware per uso personale" e sotto le licenze open source (GPL, LGPL, MPL,
+etc.), possono essere modificati secondo le previsioni delle singole licenze.
+
+
+
+
+7. Attribuzione della paternità
+-------------------------------
+
+Riteniamo che per il nostro lavoro, svolto quotidianamente in forma del
+tutto gratuita, il riconoscimento della paternità dell'opera sia la
+gratificazione necessaria ad assicurarne la prosecuzione. Per questo
+motivo chiediamo a chiunque distribuisca winPenPack o i suoi componenti
+in forma NON modificata e agli autori di opere derivate basate su winPenPack,
+sul winPenPack menù, sugli X-Software o su X-Launcher, di fare chiaramente
+riferimento al progetto winPenPack e ai suoi autori tramite un link a 
+winpenpack.com nei file sorgente e di documentazione acclusi ai pacchetti 
+software e nelle pagine del sito web che ospita e distribuisce le opere derivate.
+Con queste indicazioni non intendiamo limitare la libertà e il diritto di
+utilizzare e modificare i nostri materiali, di cui rendiamo disponibile il
+codice sorgente al fine di incentivarne lo sviluppo, ma desideriamo che si
+operi collaborativamente nel rispetto delle licenze e del diritto d'autore.
+Per maggiori dettagli leggere anche le note supplementari su marchi e 
+copyright al punto 8.
+
+
+
+
+8. Avviso di violazione di marchi e copyright
+---------------------------------------------
+
+I programmi utilizzati per la realizzazione delle relative versioni portatili 
+sono software rilasciati esclusivamente sotto le licenze open source e vengono 
+associati agli X-Software generalmente in forma decompressa (archivio zip o 
+setup estratto) e non modificata, più raramente in forma modificata.
+
+Alcune immagini presenti nel sito, nelle schede download e negli splash screen 
+dei programmi sono opera originale del winPenPack Team, altre nascono dalla 
+modifica di immagini open source preesistenti, ed altre ancora, rilasciate 
+sempre sotto le licenze open source (GPL/LGPL, etc..), vengono scaricate dai 
+siti dei programmi originali o da siti che distribuiscono immagini sotto licenza 
+libera (ad esempio http://iconlet.com) e vengono utilizzate in forma non modificata.
+
+E' nostra intenzione fare ogni sforzo per rispettare le licenze dei programmi, 
+delle immagini e i diritti sui marchi. Tuttavia, nonostante i nostri sforzi, 
+e a causa di fattori indipendenti dalla nostra volontà, potrebbero comunque 
+essere rilevate violazioni. A tal proposito, se l'autore di un'immagine, di 
+un software o di qualsiasi altro materiale presente su winPenPack ritenesse 
+che questo sia stato utilizzato in modo non consentito, o se rilevasse che 
+il proprio diritto d'autore, marchio, nome commerciale, copyright sia stato 
+violato, è invitato gentilmente a segnalare il problema al Team di sviluppo 
+che provvederà prontamente ad apportare gli aggiustamenti del caso.
+
+
+
+
+9. Rinuncia alla garanzia e limitazione di responsabilità
+---------------------------------------------------------
+
+winPenPack, gli X-Software e tutti i componenti di winPenPack sono 
+distribuiti SENZA ALCUN TIPO DI GARANZIA, NÉ ESPLICITA NÉ IMPLICITA, incluse, 
+ma non limitate a, le garanzie di COMMERCIABILITA' o di UTILIZZABILITA' PER 
+UN PARTICOLARE SCOPO, come specificato dalla GNU General Public License. 
+In nessun caso i detentori del copyright, o qualunque altra parte che modifica 
+e/o distribuisce i software e/o materiali di winPenPack secondo le condizioni 
+precedenti, possono essere ritenuti responsabili nei confronti del licenziatario 
+per eventuali danni. Gli autori di winPenPack non possono ritenersi responsabili 
+delle opere derivate. Nessun autore di opere derivate potrà presentarsi come 
+ideatore o realizzatore di winPenPack. Non è possibile reclamare la proprietà 
+esclusiva o intellettuale di winPenPack, appartenente a Danilo Leggieri, già 
+protetta dal diritto d'autore.

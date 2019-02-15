@@ -1,0 +1,79 @@
+---------------------------------------------------------------------
+winPenPack Project § X-Software collection
+Copyright © 2005-2013 Danilo Leggieri and winPenPack Development Team
+---------------------------------------------------------------------
+
+http://www.winpenpack.com
+winpenpack@gmail.com
+winPenPack License Agreement:
+http://www.winpenpack.com/main/page.php?5
+
+
+==================
+winPenPack project
+==================
+
+
+------
+Indice
+------
+1. Informazioni sul progetto winPenPack
+2. Licenza e copyright
+3. Supporto
+4. Contatti
+5. Supporta il progetto!
+
+
+
+1. Informazioni sul progetto winPenPack
+---------------------------------------
+winPenPack è un progetto gratuito nato nel 2005 che ha come scopo la ricerca e lo
+sviluppo del software portabile. E' coordinato e diretto da un Team di sviluppo
+coadiuvato da una community di utenti e collaboratori che forniscono la propria
+opera gratuitamente. L'utilizzo dei software e dei contenuti prodotti da winPenPack
+implica la lettura e l'accettazione dei termini e condizioni espressi nel file 
+license.txt. Ci riserviamo il diritto di modificare senza preavviso le indicazioni 
+di licenza; dette modifiche saranno effettive dal momento della pubblicazione su 
+http://www.winpenpack.com/ (http://www.winpenpack.com/main/page.php?5).
+
+Il progetto si articola in diverse attività, tra cui la ricerca, segnalazione e
+produzione di programmi portatili e launcher, la pubblicazione di tutorial, guide, testi
+e articoli inerenti i programmi portatili, la creazione e distribuzione di winPenPack.
+
+Nell'ottica dello sviluppo e della diffusione del Software Libero portabile, il
+progetto rivolge principalmente il proprio interesse verso il software rilasciato sotto
+le licenze open source, ed opera eccezionalmente su software Freeware, previa
+autorizzazione dei rispettivi autori.
+
+
+
+2. Licenza e copyright
+----------------------
+Leggere il file license_it.txt
+
+
+
+3. Supporto
+-----------
+Il team di sviluppo non può assicurare supporto via mail.
+Per l'assistenza utilizzare il forum al seguente link:
+http://www.winpenpack.com/main/e107_plugins/forum/forum.php
+
+
+
+4. Contatti
+-----------
+Il sito ufficiale di winPenPack è http://www.winpenpack.com/
+Il progetto è ospitato su SourceForge all'indirizzo:
+http://sourceforge.net/projects/winpenpack/
+L'indirizzo e-mail, da non utilizzare per richiedere assistenza,
+è winpenpack@gmail.com
+
+
+
+5. Supporta il progetto!
+------------------------
+Supporta lo sviluppo di winPenPack con una donazione! Puoi 
+contribuire utilizzando il servizio PayPal, che permette di 
+effettuare una donazione in totale sicurezza, o il servizio 
+offerto da SorceForge: http://www.winpenpack.com/main/page.php?6

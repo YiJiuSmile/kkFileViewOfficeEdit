@@ -1,0 +1,219 @@
+---------------------------------------------------------------------
+winPenPack Project § X-Software collection
+Copyright © 2005-2013 Danilo Leggieri and winPenPack Development Team
+---------------------------------------------------------------------
+
+http://www.winpenpack.com
+winpenpack@gmail.com
+winPenPack License Agreement:
+http://www.winpenpack.com/main/page.php?5
+
+
+=====================
+X-Launcher change log
+=====================
+
+
+------
+Indice
+------
+1. Informazioni su X-Launcher
+2. Note di versione
+3. Licenza e copyright
+4. Change Log
+
+
+
+1. Informazioni su X-Launcher
+-----------------------------
+X-Launcher è parte del progetto winPenPack. Permette di modificare a piacimento
+le opzioni d'avvio dei programmi allo scopo di renderli portatili, cioè usabili
+su dispositivi di memoria removibili come chiavette usb o hard disk esterni.
+In questa nuova versione è stato notevolmente migliorato il codice del launcher
+ad opera del winPenPack Team, sulla base della precedente versione 1.1 sviluppata
+dall'autore originale, Gabriele Tittonel.
+
+
+
+2. Note di versione
+-------------------
+Versione: 1.5.1 stable
+Rilasciata il: 29/08/2012
+Codice sorgente: incluso nel pacchetto
+
+
+
+3. Licenza e copyright
+----------------------
+Leggere il file license_it.txt
+
+
+
+4. Change Log
+-------------
+
+Variazioni in sviluppo:
+
+- (Correzione) Bug StringReplace: il launcher si arrestava con errore nel caso
+  in cui le direttive di inizio e fine contenessero caratteri maiuscoli diversi
+  da quelli presenti nel file da modificare.
+
+
+
+Variazioni dalla versione 1.5.0 alla versione 1.5.1:
+
+- (Implementazione) JavaGet: installazione nuovo aggiornamento in \Lib anche in 
+  presenza di Java installato nel sistema ospite.
+ 
+  
+  
+Variazioni dalla versione 1.4.3 alla versione 1.5.0:
+
+- (Correzione) Bug IsClosing: in caso di precedente crash del sistema, appariva
+  un messaggio "X-Software è ancora in chiusura" impedendo di avviare il Software
+  se non tramite cancellazione manuale dei file temporanei.
+
+- (Correzione) Bug SystemLanguage: riconoscimento lingua di sistema quando la
+  variabile d'ambiente LANG non viene trovata.
+
+- (Implementazione) HideShellWindow: nuova opzione per nascondere la shell di comando
+  per i programmi che la visualizzano.
+
+- (Implementazione) _PathEncode: nuova funzione che permette di generalizzare la decodifica
+  di caratteri particolari nei path, utilizzando, per compatibilità all'indietro, sempre
+  la stringa "%20" per abilitarla.
+
+- (Implementazione) JavaGet: integrazione nel launcher delle funzionalità di JavaGet.
+  Nuova funzionalità: se Java non è installato in \Lib ma è già presente nel sistema
+  ospite, viene usato per i programmi invece di scaricare e installare Java in \Lib.
+  Aggiunta gestione casi particolari di configurazioni di Java corrotte.
+  In caso di Java presente contemporaneamente nel sistema ospite e nel pack viene usata 
+  la versione più aggiornata.
+
+- (Implementazione) FirstRunOperations: nuova sezione del file .ini "FirstRunOperations"
+  e nuova opzione "FirstRun" per eseguire (solo quando "FirstRun=true") i seguenti comandi:
+  _DirCopy, _DirCreate, _DirMove, _DirRemove, _FileCopy, _FileCreatePlus, _FileDelete,
+  _FileMove, _RunWait. La funzione, al termine dell'esecuzione dei comandi della sezione
+  "FirstRunOperations", valorizza l'opzione FirstRun=false.
+
+- (Implementazione) TrayTip: funzionalità del tutto analoga a ShowSplash, che però visualizza
+  un alert nella traybar ad ogni esecuzione del launcher.
+
+
+
+Variazioni dalla versione 1.4.2 alla versione 1.4.3:
+
+- (Correzione) Registry: riscritto il codice per la gestione del registro di sistema
+  per garantire una migliore compatibilità con Vista.
+
+- (Implementazione) Registry: nuovi parametri RegEdit e RequireAdmin per la gestione
+  di un editor esterno di registro in caso di permessi amministrativi necessari.
+
+
+
+Variazioni dalla versione 1.4.1 alla versione 1.4.2:
+
+- (Correzione) Parametri di avvio: corretto un bug nella gestione dei parametri
+  di avvio delle applicazioni.
+
+
+
+Variazioni dalla versione 1.4 alla versione 1.4.1:
+
+- (Implementazione) Wildcard: aggiunto supporto ai path con
+  wildcard nelle funzioni StringReplace e StringRegExpReplace.
+
+- (Correzione) Path relativi: in alcune funzioni (DirMove, DirRemove, FileMove)
+  i path relativi non venivano interpretati in modo corretto.
+
+- (Correzione) Parametri di avvio: corretto un bug nella gestione dei parametri
+  multipli di avvio delle applicazioni.
+
+- (Implementazione) DirRemove: nuova opzione per la funzione DirRemove
+  che permette di cancellare ricorsivamente solo le cartelle vuote.
+
+
+
+Variazioni dalla versione 1.3.1 alla versione 1.4:
+
+- (Correzione) Splash Screen: riscritto il codice per velocizzare l'avvio delle
+  applicazioni ed eliminare possibili blocchi causati dai sistemi di protezione.
+
+- (Correzione) Bug DirMove: in caso di spostamento cartelle con sovrascrittura,
+  se la cartella era già esistente, veniva inserita all'interno di questa.
+
+- (Correzione) Migliorata la gestione dei processi multipli (bug win2000).
+
+- (Implementazione) StringRegExpReplace: nuova funzione che permette di
+  modificare file di testo utilizzando le espressioni regolari.
+
+- (Implementazione) StringReplace: nuova opzione per la funzione StringReplace
+  che permette di sovrascrivere i delimitatori di inizio e fine.
+
+- (Implementazione) DirMove: nuove opzioni per la funzione DirMove che
+  permettono di definire in modo preciso il comportamento nella funzione nel
+  caso la cartella di destinazione sia esistente.
+
+- (Implementazione) Nuove variabili contenenti i nomi delle cartelle utilizzate
+  nella portabilizzazione, per una migliore gestione della riscrittura dei percorsi.
+
+
+
+Variazioni dalla versione 1.3 alla versione 1.3.1:
+
+- (Correzione) Bug IsClosing: in caso di chiusura non corretta del launcher
+  appariva un messaggio "X-Software è ancora in chiusura" impedendo
+  di avviare il Software se non tramite cancellazione manuale dei file
+  temporanei.
+
+- (Correzione) Bug IsRunning: in caso di chiusura non corretta del launcher
+  la variabile restava impostata in "True" impedendo la giusta esecuzione
+  del launcher negli avvii successivi.
+
+- (Implementazione) Arresto del sistema: gestione della chiusura automatica del
+  launcher in caso di arresto del sistema.
+
+
+
+Variazioni dalla versione 1.1 alla versione 1.3:
+
+- (Correzione) Miglioramento delle prestazioni: errori di pagina e
+  consumo CPU anomali, risolti con l'utilizzo della istruzione RunWait()
+  ed altri accorgimenti.
+
+- (Correzione) Bug IsRunning: avviando istanze multiple di un'applicazione
+  nel secondo avvio IsRunning viene settato a false e nel terzo, quinto,
+  settimo ecc. il launcher viene rieseguito come fosse la prima volta.
+
+- (Correzione) Bug Launcher unico: se il file X-Launcher.cfg non è settato
+  correttamente vengono sovrascritte le cartelle temporanee.
+
+- (Correzione) Bug Applicazioni java: con le applicazioni java non veniva
+  avviata correttamente la sezione RunAfter se venivano eseguite più
+  istanze o più applicazioni java.
+
+- (Correzione) Bug RunWait=false: con questa impostazione le cartelle
+  temporanee non venivano cancellate.
+
+- (Correzione) Bug ShowSplash: in Vista e Win2000 non veniva
+  visualizzato lo Splash Screen.
+
+- (Correzione) WriteToReg: il dato %% veniva scritto
+  nel .reg come %
+
+- (Correzione) Bug MultipleIstance=false con java: con java il
+  parametro non funzionava correttamente.
+
+- (Correzione) Bug IsClosing: impedito riavvio applicazione se applicazione
+  precedente ancora in fase di chiusura (per sistemi operativi
+  obsoleti o molto lenti).
+
+- (Correzione) Bug Percorsi di rete: il launcher non riusciva a risolvere
+  i percorsi di rete.
+
+- (Implementazione) Feature Local AppData e Local Settings: permette al
+  launcher di operare nelle directories
+  C:\Documents and Settings\USER\Impostazioni locali e
+  C:\Documents and Settings\USER\Impostazioni locali\Dati applicazioni.
+
+- (Implementazione) Graphics: modificato Splash Screen e icona principale.

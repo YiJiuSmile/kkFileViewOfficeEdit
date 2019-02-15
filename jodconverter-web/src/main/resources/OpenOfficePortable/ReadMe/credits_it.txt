@@ -1,0 +1,121 @@
+---------------------------------------------------------------------
+winPenPack Project § X-Software collection
+Copyright © 2005-2013 Danilo Leggieri and winPenPack Development Team
+---------------------------------------------------------------------
+
+http://www.winpenpack.com
+winpenpack@gmail.com
+winPenPack License Agreement:
+http://www.winpenpack.com/main/page.php?5
+
+
+=======================================================
+Crediti e Ringraziamenti (ultima revisione: 10.04.2011)
+=======================================================
+
+
+NOTA: se qualcuno ritiene di dover essere incluso in questo
+elenco, invii una mail a winpenpack@gmail.com
+
+
+------
+Indice
+------
+1. Hosting
+2. Mirror e distribuzione
+3. Vecchi componenti del Team e collaboratori
+4. Suggerimenti e idee
+5. Testing
+6. Autori programmi
+7. Sito Web
+8. Icone e immagini
+9. Tools e linguaggi di programmazione
+
+
+
+1. Hosting
+----------
+Il progetto winPenPack è ospitato anche su SourceForge 
+(http://sourceforge.net/projects/winpenpack/)
+
+
+
+2. Mirror e distribuzione
+-------------------------
+SourceForge (http://sourceforge.net/projects/winpenpack/)
+Marvho.com (http://www.marvho.com)
+Uncle Dan’s Corner (http://www.uncledan.it/)
+
+
+
+3. Vecchi componenti del Team e collaboratori
+---------------------------------------------
+Roberto Angius (Roan)
+Gaspare Grana (grangas)
+Michele R. (Moticanus)
+Gabriele Tittonel (tittoproject)
+Massimo D'Angelo (icemax)
+Umberto Mascia (PortableUmbo)
+Luca Zoboli (_zulu)
+Matteo Salvi (El Salvador)
+Ciro Iorio (Alchimista)
+Simone Grassini (Simongr)
+
+
+
+4. Suggerimenti e idee
+----------------------
+Un grande ringraziamento a tutti gli utenti di winPenPack,
+a chi collabora e ha collaborato in passato allo sviluppo
+del progetto.
+
+
+
+5. Testing 
+----------
+Un grande ringraziamento a tutti gli utenti per l'attività 
+di testing.
+
+
+6. Autori programmi
+-------------------
+Un grande ringraziamento a tutti gli autori dei programmi
+inclusi in winPenPack.
+
+
+
+7. Sito Web
+-----------
+e107 website system (e107.org, http://www.e107.org)
+e107Italia (traduzione di e107, http://www.e107italia.org)
+
+
+
+8. Icone e immagini
+-------------------
+Lamberto Tedaldi (Usbix, la mascotte di winPenPack,
+http://www.officinepixel.com)
+
+Alexandre Moore (icona della pendrive di winPenPack
+e altre immagini utilizzate per la grafica del sito,
+http://sa-ki.deviantart.com)
+
+David Vignoni (tema "Nuvola", http://www.icon-king.com)
+
+Gli autori delle immagini pubblicate sotto licenza open source 
+(GPL/LGPL, etc..) su Iconlet (http://iconlet.com/), Wikipedia 
+(http://wikipedia.org/), Open Clip Art Library 
+(http://openclipart.org/) ed altri siti simili, utilizzate per 
+la grafica del sito e gli splash screen degli X-Software. 
+Per maggiori dettagli leggere le note supplementari su marchi e 
+copyright (http://www.winpenpack.com/main/page.php?5#infringement).
+
+
+
+9. Tools e linguaggi di programmazione
+--------------------------------------
+Autoit3 (linguaggio utilizzato per i launchers, 
+http://www.autoitscript.com)
+
+Jordan Russell (setup di winPenPack creato con Innosetup,
+http://www.jrsoftware.org)

@@ -1,0 +1,97 @@
+---------------------------------------------------------------------
+winPenPack Project § X-Software collection
+Copyright © 2005-2013 Danilo Leggieri and winPenPack Development Team
+---------------------------------------------------------------------
+
+http://www.winpenpack.com
+winpenpack@gmail.com
+winPenPack License Agreement:
+http://www.winpenpack.com/main/page.php?5
+
+
+==========
+X-Software
+==========
+
+
+------
+Indice
+------
+1. Informazioni sull'X-Software
+2. Requisiti JRE
+3. Installazione dell'X-Software in winPenPack
+4. Aggiornamento dell'X-Software
+5. Localizzazione
+6. Licenza e copyright
+
+
+1. Informazioni sull'X-Software
+-------------------------------
+Il software portatile incluso in questo archivio è un X-Software da utilizzare 
+con winPenPack o singolarmente. Non richiede installazione, non scrive le 
+impostazioni nel registro di Windows, nè nelle cartelle utente e può essere 
+trasportato da un computer all'altro tramite un qualsiasi dispositivo di 
+memorizzazione portatile, come Pendrive USB o Hard Disk removibili, conservando 
+le impostazioni personali nella cartella \User\Nome_Programma. Per utilizzare 
+l'applicazione singolarmente eseguire X-Software.exe. Per includerla in winPenPack, 
+utilizzare l'opzione "Installa X-Software..." del menù.
+
+
+
+2. Requisiti JRE
+----------------
+Se l'X-Software richiede Java Runtime Environment, installare Java 
+normalmente su hard disk dopo aver effettuato il download dal seguente 
+link: http://www.java.com/it/download/manual.jsp (scegliere  Windows - 
+installazione off-line). Copiare le due cartelle "bin" e "lib" situate
+nella directory C:\Programmi\Java\jre1.XXX, all'interno della cartella 
+X-Nome_software\Lib\Java (eliminando quindi la cartella intermedia 
+"jre1.XXX"). Disinstallare Java dal computer in uso.
+
+
+
+3. Installazione dell'X-Software in winPenPack
+----------------------------------------------
+Il programma può essere installato automaticamente nel menù di winPenPack 
+tramite l'opzione "Installa X-Software...". Il winPenPack Menù è reperibile 
+a questo indirizzo: http://www.winpenpack.com/main/download.php?view.12
+Per maggiori informazioni, seguire le istruzioni riportate al seguente 
+link: http://www.winpenpack.com/main/page.php?26
+
+
+
+4. Aggiornamento dell'X-Software
+--------------------------------
+Gli X-Software salvano le impostazioni personali nella cartella 
+\User\Nome_Programma. L'aggiornamento di un X-Software incluso in winPenPack, 
+può essere effettuato automaticamente installando la versione più recente sulla 
+versione meno recente, tramite la funzione "Installa X-Software...". L'aggiornamento 
+di un X-Software non incluso in winPenPack deve essere effettuato manualmente, 
+sostituendo la cartella User\Nome_Programma appartenente alla versione più recente 
+con la corrispondente cartella \User\Nome_Programma contenente i propri dati, 
+rispettando la struttura delle cartelle. Per maggiori informazioni, seguire le 
+istruzioni riportate al seguente link: http://www.winpenpack.com/main/page.php?26
+
+
+
+5. Localizzazione
+-----------------
+Per eseguire il programma in Italiano (dove presente) al primo avvio, eseguire 
+X-Software.exe con l'X-Software.ini situato nella cartella principale del programma. 
+In genere l'.ini principale cancella anche tutte le lingue supplementari a parte 
+quella italiana. Per eseguire il programma nella lingua del sistema operativo o in
+Inglese, e per conservare tutte le lingue supportate dal programma, sovrascrivere
+il file X-Software.ini all'interno della cartella principale con quello presente 
+nella cartella "English_users", ed avviare X-Software.exe. Questa operazione viene 
+effettuata automaticamente installando l'X-Software nel menù di winPenPack tramite 
+la funzione "Installa X-Software...". In questo caso, se il menù ha l'interfaccia 
+italiana, verranno lette le informazioni dell'.ini principale e il programma si 
+avvierà in Italiano. Se viceversa l'interfaccia del menù è in una qualsiasi altra 
+lingua, verrà letto di default l'.ini in Inglese e il programma si avvierà in 
+Inglese o nella lingua del sistema operativo.
+
+
+
+6. Licenza e copyright
+----------------------
+Leggere il file license_it.txt

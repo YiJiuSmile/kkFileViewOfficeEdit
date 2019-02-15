@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--
+Copyright (c) 2010, 2014, Oracle and/or its affiliates. All rights reserved.
+ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+-->
+<Task xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+    <RegistrationInfo>
+        <Date>2009-01-01T00:00:00</Date>
+        <Author>Java</Author>
+        <Description>In OEMUpdate, jusched starts when users login</Description>
+    </RegistrationInfo>
+    <Triggers>
+        <LogonTrigger>
+            <Enabled>true</Enabled>
+            <Delay>PT120S</Delay>
+        </LogonTrigger>
+    </Triggers>
+    <Principals>
+        <Principal>
+            <GroupId>Users</GroupId>
+        </Principal>
+    </Principals>
+    <Settings>
+        <Enabled>true</Enabled>
+        <AllowStartOnDemand>true</AllowStartOnDemand>
+        <AllowHardTerminate>true</AllowHardTerminate>
+        <RunOnlyIfNetworkAvailable>true</RunOnlyIfNetworkAvailable>
+        <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+    </Settings>
+    <Actions>
+        <Exec>
+            <Command>%CommonProgramFiles%\Java\Java Update\jusched.exe</Command>
+        </Exec>
+    </Actions>
+</Task>
+

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--***********************************************************
+ * 
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ * 
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ * 
+ ***********************************************************-->
+<tree_view version="24-Aug-2004">
+	<help_section application="swriter" id="01" title="安裝">
+<topic id="shared/text/shared/guide/ms_doctypes.xhp">變更 Microsoft Office 文件類型的關聯</topic>
+	</help_section>
+	<help_section application="swriter" id="10" title="常用說明主題">
+		<node id="1001" title="一般資訊">
+<topic id="shared/text/shared/main0400.xhp">組合鍵</topic>
+<topic id="shared/text/shared/00/00000005.xhp">一般詞彙表</topic>
+<topic id="shared/text/shared/00/00000002.xhp">Internet 術語詞彙表</topic>
+<topic id="shared/text/shared/guide/accessibility.xhp">%PRODUCTNAME 中的協助工具</topic>
+<topic id="shared/text/shared/guide/keyboard.xhp">組合鍵 (%PRODUCTNAME 協助工具))</topic>
+<topic id="shared/text/shared/04/01010000.xhp">%PRODUCTNAME 中的一般組合鍵</topic>
+<topic id="shared/text/shared/guide/version_number.xhp">版本和建置號碼</topic>
+</node>
+		<node id="1002" title="%PRODUCTNAME 和 Microsoft Office">
+<topic id="shared/text/shared/guide/ms_user.xhp">使用 Microsoft Office 和 %PRODUCTNAME</topic>
+<topic id="shared/text/shared/guide/microsoft_terms.xhp">比較 Microsoft Office 和 %PRODUCTNAME 術語</topic>
+<topic id="shared/text/shared/guide/ms_import_export_limitations.xhp">關於轉換 Microsoft Office 文件</topic>
+<topic id="shared/text/shared/guide/ms_doctypes.xhp">變更 Microsoft Office 文件類型的關聯</topic>
+		</node>
+		<node id="1004" title="%PRODUCTNAME 選項">
+<topic id="shared/text/shared/optionen/01000000.xhp">選項</topic>
+<topic id="shared/text/shared/optionen/01010100.xhp">使用者資料</topic>
+<topic id="shared/text/shared/optionen/01010200.xhp">一般</topic>
+<topic id="shared/text/shared/optionen/01010300.xhp">路徑</topic>
+<topic id="shared/text/shared/optionen/01010400.xhp">撰寫輔助</topic>
+<topic id="shared/text/shared/optionen/01010500.xhp">顏色</topic>
+<topic id="shared/text/shared/optionen/01010600.xhp">一般</topic>
+<topic id="shared/text/shared/optionen/01010700.xhp">字型</topic>
+<topic id="shared/text/shared/optionen/01010800.xhp">檢視</topic>
+<topic id="shared/text/shared/optionen/01010900.xhp">列印選項</topic>
+<topic id="shared/text/shared/optionen/01011000.xhp">記憶體</topic>
+<topic id="shared/text/shared/optionen/01012000.xhp">外觀</topic>
+<topic id="shared/text/shared/optionen/01013000.xhp">協助工具</topic>
+<topic id="shared/text/shared/optionen/01020000.xhp">載入/儲存選項</topic>
+<topic id="shared/text/shared/optionen/01030000.xhp">Internet 選項</topic>
+<topic id="shared/text/shared/optionen/01040000.xhp">文字文件選項</topic>
+<topic id="shared/text/shared/optionen/01050000.xhp">HTML 文件選項</topic>
+<topic id="shared/text/shared/optionen/01060000.xhp">試算表選項</topic>
+<topic id="shared/text/shared/optionen/01070000.xhp">簡報選項</topic>
+<topic id="shared/text/shared/optionen/01080000.xhp">繪圖選項</topic>
+<topic id="shared/text/shared/optionen/01090000.xhp">公式</topic>
+<topic id="shared/text/shared/optionen/01110000.xhp">圖表選項</topic>
+<topic id="shared/text/shared/optionen/01130100.xhp">VBA 屬性</topic>
+<topic id="shared/text/shared/optionen/01130200.xhp">Microsoft Office</topic>
+<topic id="shared/text/shared/optionen/01140000.xhp">語言</topic>
+<topic id="shared/text/shared/optionen/01150000.xhp">語言設定選項</topic>
+<topic id="shared/text/shared/optionen/01160000.xhp">資料來源選項</topic>
+		</node>
+		<node id="1005" title="Wizards">
+<topic id="shared/text/shared/autopi/01000000.xhp">精靈</topic>
+			<node id="100501" title="Letter Wizard">
+<topic id="shared/text/shared/autopi/01010000.xhp">信函 AutoPilot</topic>
+			</node>
+			<node id="100502" title="Fax Wizard">
+<topic id="shared/text/shared/autopi/01020000.xhp">傳真精靈</topic>
+			</node>
+			<node id="100504" title="Agenda Wizard">
+<topic id="shared/text/shared/autopi/01040000.xhp">AutoPilot 議程</topic>
+			</node>
+			<node id="100505" title="Presentation Wizard">
+<topic id="shared/text/shared/autopi/01050000.xhp">簡報精靈</topic>
+			</node>
+			<node id="100506" title="HTML Export Wizard">
+<topic id="shared/text/shared/autopi/01110000.xhp">HTML 匯出</topic>
+			</node>
+			<node id="100510" title="Document Converter Wizard">
+<topic id="shared/text/shared/autopi/01130000.xhp">文件轉換器</topic>
+			</node>
+<topic id="shared/text/shared/autopi/01150000.xhp">歐元轉換器精靈</topic>
+		</node>
+		<node id="1006" title="調整 %PRODUCTNAME">
+<topic id="shared/text/shared/guide/configure_overview.xhp">配置 %PRODUCTNAME</topic>
+<topic id="shared/text/shared/01/packagemanager.xhp">擴充軟體管理程式</topic>
+<topic id="shared/text/shared/guide/flat_icons.xhp">變更圖示檢視</topic>
+<topic id="shared/text/shared/guide/edit_symbolbar.xhp">將按鈕增加到工具列</topic>
+<topic id="shared/text/shared/guide/workfolder.xhp">變更您的工作目錄</topic>
+<topic id="shared/text/shared/guide/standard_template.xhp">變更預設範本</topic>
+<topic id="shared/text/shared/guide/data_addressbook.xhp">註冊通訊錄</topic>
+<topic id="shared/text/shared/guide/formfields.xhp">插入與編輯按鈕</topic>
+		</node>
+		<node id="1007" title="使用使用者介面">
+<topic id="shared/text/shared/guide/navigator_setcursor.xhp">導覽至快速存取物件</topic>
+<topic id="shared/text/shared/guide/navigator.xhp">文件摘要的助手</topic>
+<topic id="shared/text/shared/guide/autohide.xhp">顯示、停駐和隱藏視窗</topic>
+<topic id="shared/text/shared/guide/navpane_on.xhp">顯示說明的導覽窗格</topic>
+<topic id="shared/text/shared/guide/textmode_change.xhp">在插入模式和覆寫模式之間切換</topic>
+<topic id="shared/text/shared/guide/floating_toolbar.xhp">使用工具列</topic>
+<topic id="shared/text/shared/guide/sidebar_window.xhp">Sidebar Window</topic>
+		</node>
+		<node id="1008" title="列印、傳真、傳送">
+<topic id="shared/text/shared/guide/labels_database.xhp">列印地址標籤</topic>
+<topic id="shared/text/shared/guide/print_blackwhite.xhp">以黑白色列印</topic>
+<topic id="shared/text/shared/guide/email.xhp">以電子郵件方式傳送文件</topic>
+<topic id="shared/text/shared/guide/fax.xhp">傳送傳真與配置 %PRODUCTNAME 的傳真設定</topic>
+		</node>
+		<node id="1009" title="拖放">
+<topic id="shared/text/shared/guide/dragdrop.xhp">在 %PRODUCTNAME 文件中拖放</topic>
+<topic id="swriter/text/swriter/guide/dragdroptext.xhp">在文件中移動並複製文字</topic>
+<topic id="shared/text/shared/guide/dragdrop_table.xhp">複製試算表區域到文字文件</topic>
+<topic id="shared/text/shared/guide/dragdrop_graphic.xhp">在文件間複製圖形</topic>
+<topic id="shared/text/shared/guide/dragdrop_fromgallery.xhp">從畫廊複製圖形</topic>
+<topic id="shared/text/shared/guide/dragdrop_beamer.xhp">在資料來源檢視中拖放</topic>
+		</node>
+		<node id="1010" title="複製和貼上">
+<topic id="shared/text/shared/guide/copy_drawfunctions.xhp">將繪圖物件複製到其他文件</topic>
+<topic id="shared/text/shared/guide/dragdrop_graphic.xhp">在文件間複製圖形</topic>
+<topic id="shared/text/shared/guide/dragdrop_fromgallery.xhp">從畫廊複製圖形</topic>
+<topic id="shared/text/shared/guide/dragdrop_table.xhp">複製試算表區域到文字文件</topic>
+		</node>
+		<node id="1012" title="圖表和圖解">
+<topic id="shared/text/shared/guide/chart_insert.xhp">插入圖表</topic>
+<topic id="schart/text/schart/main0000.xhp">%PRODUCTNAME 中的圖表</topic>
+		</node>
+		<node id="1013" title="載入、儲存、匯入、匯出">
+<topic id="shared/text/shared/guide/doc_open.xhp">開啟文件</topic>
+<topic id="shared/text/shared/guide/import_ms.xhp">開啟以其他格式儲存的文件</topic>
+<topic id="shared/text/shared/guide/doc_save.xhp">儲存文件</topic>
+<topic id="shared/text/shared/guide/doc_autosave.xhp">自動儲存文件</topic>
+<topic id="shared/text/shared/guide/export_ms.xhp">以其他格式儲存文件</topic>
+<topic id="shared/text/shared/guide/data_dbase2office.xhp">以文字格式匯入與匯出資料</topic>
+		</node>
+		<node id="1014" title="連結和參照">
+<topic id="shared/text/shared/guide/hyperlink_insert.xhp">插入超連結</topic>
+<topic id="shared/text/shared/guide/hyperlink_rel_abs.xhp">相對和絕對連結</topic>
+<topic id="shared/text/shared/guide/hyperlink_edit.xhp">編輯超連結</topic>
+		</node>
+		<node id="1015" title="文件版本追蹤">
+<topic id="shared/text/shared/guide/redlining_doccompare.xhp">比較文件的版本</topic>
+<topic id="shared/text/shared/guide/redlining_docmerge.xhp">合併版本</topic>
+<topic id="shared/text/shared/guide/redlining_enter.xhp">記錄變更</topic>
+<topic id="shared/text/shared/guide/redlining.xhp">記錄和顯示變更</topic>
+<topic id="shared/text/shared/guide/redlining_accept.xhp">接受或拒絕變更</topic>
+<topic id="shared/text/shared/guide/redlining_versions.xhp">版本管理</topic>
+		</node>
+		<node id="1016" title="標籤和名片">
+<topic id="shared/text/shared/guide/labels.xhp">建立與列印標籤和名片</topic>
+		</node>
+		<node id="1018" title="插入外部資料">
+<topic id="shared/text/shared/guide/copytable2application.xhp">插入試算表的資料</topic>
+<topic id="shared/text/shared/guide/copytext2application.xhp">插入文字文件的資料</topic>
+<topic id="shared/text/shared/guide/insert_bitmap.xhp">插入、編輯、儲存點陣圖</topic>
+<topic id="shared/text/shared/guide/dragdrop_gallery.xhp">將圖形加入畫廊</topic>
+		</node>
+		<node id="1019" title="自動功能">
+<topic id="shared/text/shared/guide/autocorr_url.xhp">關閉自動 URL 識別</topic>
+		</node>
+		<node id="1020" title="搜尋和代替">
+<topic id="shared/text/shared/guide/data_search2.xhp">使用表單篩選進行搜尋</topic>
+<topic id="shared/text/shared/guide/hyperlink_search.xhp">使用超連結位址欄搜尋</topic>
+<topic id="shared/text/shared/guide/data_search.xhp">搜尋表格文件和表單文件</topic>
+<topic id="shared/text/shared/01/02100001.xhp">常規表示式的清單</topic>
+		</node>
+		<node id="1021" title="指南">
+<topic id="shared/text/shared/guide/linestyles.xhp">套用線條樣式</topic>
+<topic id="shared/text/shared/guide/text_color.xhp">變更文字的顏色</topic>
+<topic id="shared/text/shared/guide/change_title.xhp">變更文件的標題</topic>
+<topic id="shared/text/shared/guide/round_corner.xhp">建立圓角</topic>
+<topic id="shared/text/shared/guide/background.xhp">定義背景顏色或背景圖形</topic>
+<topic id="shared/text/shared/guide/lineend_define.xhp">定義線條端點</topic>
+<topic id="shared/text/shared/guide/linestyle_define.xhp">定義線條樣式</topic>
+<topic id="shared/text/shared/guide/insert_graphic_drawit.xhp">編輯圖形物件</topic>
+<topic id="shared/text/shared/guide/line_intext.xhp">在文字中畫線</topic>
+<topic id="shared/text/shared/guide/aaa_start.xhp">第一步</topic>
+<topic id="shared/text/shared/guide/gallery_insert.xhp">從畫廊插入物件</topic>
+<topic id="shared/text/shared/guide/space_hyphen.xhp">插入受保護的空格、連字符和條件分隔符</topic>
+<topic id="shared/text/shared/guide/insert_specialchar.xhp">插入特殊字元</topic>
+<topic id="shared/text/shared/guide/tabs.xhp">插入並編輯定位鍵</topic>
+<topic id="shared/text/shared/guide/protection.xhp">%PRODUCTNAME 中的保護內容</topic>
+<topic id="shared/text/shared/guide/redlining_protect.xhp">保護記錄</topic>
+<topic id="shared/text/shared/guide/pageformat_max.xhp">選取頁面上最大的可列印範圍</topic>
+<topic id="shared/text/shared/guide/measurement_units.xhp">選擇定量單位</topic>
+<topic id="shared/text/shared/guide/language_select.xhp">選取文件語言</topic>
+<topic id="shared/text/shared/guide/data_tabledefine.xhp">表格設計</topic>
+<topic id="shared/text/shared/guide/numbering_stop.xhp">關閉個別段落的編號/項目符號</topic>
+		</node>
+	</help_section>
+	<help_section application="swriter" id="09" title="資料庫功能">
+		<node id="0901" title="一般資訊">
+<topic id="shared/text/shared/explorer/database/main.xhp">%PRODUCTNAME 資料庫</topic>
+<topic id="shared/text/shared/guide/database_main.xhp">資料庫簡介</topic>
+<topic id="shared/text/shared/guide/data_new.xhp">建立新的資料庫</topic>
+<topic id="shared/text/shared/guide/data_tables.xhp">使用表格</topic>
+<topic id="shared/text/shared/guide/data_queries.xhp">使用查詢</topic>
+<topic id="shared/text/shared/guide/data_forms.xhp">使用表單</topic>
+<topic id="shared/text/shared/guide/data_reports.xhp">建立報表</topic>
+<topic id="shared/text/shared/guide/data_register.xhp">註冊與刪除資料庫</topic>
+<topic id="shared/text/shared/guide/data_im_export.xhp">對 Base 匯入及匯出資料</topic>
+<topic id="shared/text/shared/guide/data_enter_sql.xhp">執行 SQL 指令</topic>
+		</node>
+	</help_section>
+</tree_view>

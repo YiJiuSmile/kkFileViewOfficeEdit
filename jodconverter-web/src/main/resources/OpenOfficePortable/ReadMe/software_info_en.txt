@@ -1,0 +1,93 @@
+---------------------------------------------------------------------
+winPenPack Project § X-Software collection
+Copyright © 2005-2013 Danilo Leggieri and winPenPack Development Team
+---------------------------------------------------------------------
+
+http://www.winpenpack.com
+winpenpack@gmail.com
+winPenPack License Agreement:
+http://www.winpenpack.com/en/page.php?5
+
+
+==========
+X-Software
+==========
+
+
+--------
+Contents
+--------
+1. X-Software informations
+2. JRE requirements
+3. How to install the X-Software in winPenPack
+4. How to update the X-Software
+5. X-Software localization 
+6. License and copyright
+
+
+1. X-Software informations
+--------------------------
+This package includes a portable program, called X-Software, that can be used 
+with winPenPack or standalone. It does not require any installation, it does 
+not save its settings into Windows registry and/or user folders and can be 
+easily carried between different PCs through USB Pendrives or portable Hard Disk, 
+storing personal settings into \User\Program_Name folder. For using this program, 
+simply execute X-Software.exe. For include it into winPenPack, use "Install 
+X-Software..." menu option (see below).
+
+
+
+2. JRE requirements
+-------------------
+If the X-Software requires Java Runtime Environment, download it from 
+http://www.java.com/en/download/manual.jsp choosing "Windows XP/Vista/2000/2003 
+Offline", install it on hard disk and copy "bin" and "lib" java folders 
+(from C:\Program Files\Java\jre1.XXX) into X-Software_name\Lib\Java folder 
+(this will "delete" the intermediate folder "jre1.XXX"). Then uninstall Java 
+from your hard disk.
+
+
+
+3. How to install the X-Software in winPenPack
+----------------------------------------------
+This program can be automatically installed in winPenPack menu using the "Install 
+X-Software..." option of winPenPack menu. The winPenPack menu can be downloaded 
+from this address: http://www.winpenpack.com/en/download.php?view.12
+For more informations, please follow the guidelines at this address: 
+http://www.winpenpack.com/en/page.php?26
+
+
+
+4. How to update the X-Software
+-------------------------------
+X-Softwares save their settings in X-Software\User\Program_Name folder. 
+If an X-Software is included into winPenPack, it can be automatically updated 
+installing the latest release over the owned one, through the "Install X-Software..." 
+menu option. If an X-Software is used standalone, it can be manually updated, 
+replacing the \User\Program_Name folder of latest release with the corresponding 
+\User\Program_Name folder of the owned release, always following folders structure.
+For more informations, please follow the guidelines at this address: 
+http://www.winpenpack.com/en/page.php?26
+
+
+
+5. X-Software localization 
+--------------------------
+To run the program in Italian (where allowed), at first run execute 
+X-Software.exe with the X-Software.ini located in the main folder of 
+the program. Generally, the main .ini also deletes all the additional languages 
+but Italian. To run the program in the language of the operating 
+system or in English, and to keep all languages supported by the program, 
+overwrite the X-Software.ini file inside the main folder with the one located in 
+"English_users" folder, and start X-Software.exe. This is done automatically 
+by installing the X-Software in the winPenPack menu through the "Install 
+X-Software..." option. In this case, if the menu has the Italian interface, 
+will be read the main .ini and the program will start in Italian. If, instead, 
+the menu interface is in any other language, will be read the english .ini and 
+the program will start in English or in the language of the operating system.
+
+
+
+6. License and copyright
+------------------------
+Please read the license_en.txt file
