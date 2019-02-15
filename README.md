@@ -11,12 +11,16 @@ IP+端口+项目名/onlinePreview?url=你的文件地址
 
 ### 文档编辑使用方法
 IP+端口+项目名/onlineEdit?url=你的文件地址&callBack=回调地址
+
 保存文档成功后，会触发回调，onlineEdit方法调用你传递来的回调地址，并把重新生成的文档下载地址传回去（参数名：downloadPath）
 考虑到有可能两个项目部署到不同服务器，文件不互通，所以采用这样的方式
+
 编辑地址示例：
+
 http://127.0.0.1:8012/onlineEdit?callBack=localhost:8080/ZsContent/saveCallBack&url=http%3A%2F%2Flocalhost%3A8080%2F1.ppt&fileId=yourId
+
 url需要进行encode！回调地址不能带HTTP：// ！
-如果还有其它参数
+如果还有其它参数，可以拼接到URL后面
 回调地址示例：
 http://localhost:8080/ZsContent/saveCallBack?downloadPath=http://127.0.0.1:8012/download?filename=D:/Users/chenkailing/test/a3ba6f7c-a989-4f47-8173-f795ff30a92b.ppt&fileId=123456
 如果还有其它参数也会一并传回
