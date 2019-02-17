@@ -17,7 +17,7 @@ IP+端口+项目名/onlineEdit?url=你的文件地址&callBack=回调地址
 
 编辑地址示例：
 
-http://127.0.0.1:8012/onlineEdit?callBack=localhost:8080/ZsContent/saveCallBack&url=http%3A%2F%2Flocalhost%3A8080%2F1.doc&fileId=yourId
+http://127.0.0.1:8012/onlineEdit?callBack=localhost:8080/ZsContent/saveCallBack&url=http%3A%2F%2Fwww.xdocin.com%2Fdemo%2Fdemo.docx&fileId=yourId
 
 url需要进行encode！ 回调地址不能带http://
 
@@ -25,6 +25,8 @@ url需要进行encode！ 回调地址不能带http://
 
 回调地址示例：
 http://localhost:8080/ZsContent/saveCallBack?downloadPath=http://127.0.0.1:8012/download?filename=D:/Users/chenkailing/test/a3ba6f7c-a989-4f47-8173-f795ff30a92b.doc&fileId=yourId
+
+不兼容42版以上chrome,如需使用请切换为兼容模式，不能使用极速模式
 
 
 
@@ -39,6 +41,10 @@ http://localhost:8080/ZsContent/saveCallBack?downloadPath=http://127.0.0.1:8012/
 1. 抽象预览服务接口，方便二次开发，非常方便添加其他类型文件预览支持
 1. 文档编辑使用的是pageOffice
 1. 最最重要Apache协议开源，代码pull下来想干嘛就干嘛
+
+### 文档编辑效果
+>doc编辑效果
+![输入图片说明](https://gitee.com/253281376/images_bed/raw/master/20190217/20190217205043.png "屏幕截图.png")
 
 ### 文档预览效果
 > Excel预览效果
