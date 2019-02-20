@@ -67,6 +67,8 @@ http://localhost:8080/ZsContent/saveCallBack?downloadPath=http://127.0.0.1:8012/
 
 1. 第一步：pull项目https://github.com/yijiusmile/kkFileViewOfficeEdit.git
 
+国内下载地址https://gitee.com/253281376/kkFileViewOfficeEdit.git
+
 2. 第二步：配置redis地址，如
 ```
 #=============================================#spring Redisson配置#===================================#
