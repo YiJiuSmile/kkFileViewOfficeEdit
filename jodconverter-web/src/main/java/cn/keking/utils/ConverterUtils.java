@@ -35,8 +35,13 @@ public class ConverterUtils {
 ////            connection.connect();
         DefaultOfficeManagerConfiguration configuration = new DefaultOfficeManagerConfiguration();
         Properties properties = System.getProperties();
-        officeHome=properties.get("user.dir")+"/src/main/resources/OpenOfficePortable/Bin/OpenOffice 4";
-        configuration.setOfficeHome(officeHome);
+        try {
+        	officeHome=properties.get("user.dir")+"/jodconverter-web/src/main/resources/OpenOfficePortable/Bin/OpenOffice 4";
+        	configuration.setOfficeHome(officeHome);
+		} catch (IllegalArgumentException e) {
+			officeHome=properties.get("user.dir")+"/src/main/resources/OpenOfficePortable/Bin/OpenOffice 4";
+			configuration.setOfficeHome(officeHome);
+		}
         configuration.setPortNumber(8100);
         officeManager = configuration.buildOfficeManager();
         officeManager.start();
