@@ -188,7 +188,25 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+			        <includeSystemScope>true</includeSystemScope>
+		        </configuration>
             </plugin>
+            <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-war-plugin</artifactId>
+	            <configuration>
+	                <webResources>
+	                    <resource>
+	                        <directory>src/main/resources/lib</directory>
+	                        <targetPath>WEB-INF/lib/</targetPath>
+	                        <includes>
+	                            <include>**/*.jar</include>
+	                        </includes>
+	                    </resource>
+	                </webResources>
+	            </configuration>
+        	</plugin>
         </plugins>
     </build>
 
