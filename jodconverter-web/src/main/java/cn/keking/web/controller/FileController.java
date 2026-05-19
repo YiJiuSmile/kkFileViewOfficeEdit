@@ -16,8 +16,12 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.UUID;
 
@@ -34,26 +38,29 @@ public class FileController {
     FileUtils fileUtils;
     String demoDir = "demo";
     String demoPath = demoDir + File.separator;
+    private static final List<String> ALLOWED_UPLOAD_SUFFIXES = Arrays.asList(
+            "doc", "docx", "xls", "xlsx", "ppt", "pptx", "pdf", "txt", "csv"
+    );
 
     @RequestMapping(value = "fileUpload", method = RequestMethod.POST)
     public String fileUpload(@RequestParam("file") MultipartFile file,
                              HttpServletRequest request) throws JsonProcessingException {
         String fileName = file.getOriginalFilename();
+        if (!isSafeUploadName(fileName)) {
+            return new ObjectMapper().writeValueAsString(new ReturnResponse<String>(1, "Unsupported or unsafe file name", null));
+        }
         // 判断该文件类型是否有上传过，如果上传过则提示不允许再次上传
         if (existsTypeFile(fileName)) {
             return new ObjectMapper().writeValueAsString(new ReturnResponse<String>(1, "每一种类型只可以上传一个文件，请先删除原有文件再次上传", null));
         }
-        File outFile = new File(fileDir + demoPath);
-        if (!outFile.exists()) {
-            outFile.mkdirs();
+        Path uploadDir = Paths.get(fileDir, demoDir).toAbsolutePath().normalize();
+        Path target = uploadDir.resolve(fileName).normalize();
+        if (!target.startsWith(uploadDir)) {
+            return new ObjectMapper().writeValueAsString(new ReturnResponse<String>(1, "Unsupported or unsafe file name", null));
         }
-        try(InputStream in = file.getInputStream();
-            OutputStream ot = new FileOutputStream(fileDir + demoPath + fileName)){
-            byte[] buffer = new byte[1024];
-            int len;
-            while ((-1 != (len = in.read(buffer)))) {
-                ot.write(buffer, 0, len);
-            }
+        try(InputStream in = file.getInputStream()){
+            Files.createDirectories(uploadDir);
+            Files.copy(in, target);
             return new ObjectMapper().writeValueAsString(new ReturnResponse<String>(0, "SUCCESS", null));
         } catch (IOException e) {
             e.printStackTrace();
@@ -63,10 +70,15 @@ public class FileController {
 
     @RequestMapping(value = "deleteFile", method = RequestMethod.GET)
     public String deleteFile(String fileName) throws JsonProcessingException {
-        if (fileName.contains("/")) {
-            fileName = fileName.substring(fileName.lastIndexOf("/") + 1);
+        if (!isSafeUploadName(fileName)) {
+            return new ObjectMapper().writeValueAsString(new ReturnResponse<String>(1, "Unsupported or unsafe file name", null));
         }
-        File file = new File(fileDir + demoPath + fileName);
+        Path uploadDir = Paths.get(fileDir, demoDir).toAbsolutePath().normalize();
+        Path target = uploadDir.resolve(fileName).normalize();
+        if (!target.startsWith(uploadDir)) {
+            return new ObjectMapper().writeValueAsString(new ReturnResponse<String>(1, "Unsupported or unsafe file name", null));
+        }
+        File file = target.toFile();
         if (file.exists()) {
             file.delete();
         }
@@ -109,5 +121,16 @@ public class FileController {
             }
         }
         return result;
+    }
+
+    private boolean isSafeUploadName(String fileName) {
+        if (fileName == null || fileName.trim().isEmpty()) {
+            return false;
+        }
+        if (fileName.contains("/") || fileName.contains("\\") || fileName.contains("..")) {
+            return false;
+        }
+        String suffix = fileUtils.getSuffixFromFileName(fileName);
+        return suffix != null && ALLOWED_UPLOAD_SUFFIXES.contains(suffix.toLowerCase(Locale.ROOT));
     }
 }
